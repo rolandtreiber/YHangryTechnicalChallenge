@@ -40,12 +40,12 @@ class DataHarvesterCommand extends Command
     {
         $this->line("Fetching first page");
         $rawData = $this->apiDataHandlerService->retrieveData(1)['data'];
-        sleep(1.5);
+        sleep(2);
         do {
             $nextPage = $this->apiDataHandlerService->retrieveNextPage();
             $this->line("Fetching page: ".$this->apiDataHandlerService->getActivePage());
             $rawData = array_merge($rawData, $nextPage['data']);
-            sleep(1.5);
+            sleep(2);
         } while ($nextPage['links']['next']);
         $this->line("Extracting data...");
         $data = $this->apiDataHandlerService->extractData($rawData);

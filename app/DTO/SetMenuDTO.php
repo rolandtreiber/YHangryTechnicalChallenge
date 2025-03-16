@@ -62,18 +62,18 @@ class SetMenuDTO
         $this->image = $image;
         $this->thumbnail = $thumbnail;
         $this->isVegan = $isVegan;
-        $this->isVegetarian = $isVegetarian !== null ? $isVegetarian : false;;
+        $this->isVegetarian = $isVegetarian != null ? $isVegetarian : false;;
         $this->status = $status;
         $this->pricePerPerson = $pricePerPerson;
         $this->minSpend = $minSpend;
-        $this->isSeated = $isSeated !== null ? $isSeated : false;
-        $this->isStanding = $isStanding !== null ? $isStanding : false;
-        $this->isCanape = $isCanape !== null ? $isCanape : false;
-        $this->isMixedDietary = $isMixedDietary !== null ? $isMixedDietary : false;
-        $this->isMealPrep = $isMealPrep !== null ? $isMealPrep : false;
-        $this->isHalal = $isHalal !== null ? $isHalal : false;
-        $this->isKosher = $isKosher !== null ? $isKosher : false;
-        $this->available = $available !== null ? $available : false;;
+        $this->isSeated = $isSeated != null ? $isSeated : false;
+        $this->isStanding = $isStanding != null ? $isStanding : false;
+        $this->isCanape = $isCanape != null ? $isCanape : false;
+        $this->isMixedDietary = $isMixedDietary != null ? $isMixedDietary : false;
+        $this->isMealPrep = $isMealPrep != null ? $isMealPrep : false;
+        $this->isHalal = $isHalal != null ? $isHalal : false;
+        $this->isKosher = $isKosher != null ? $isKosher : false;
+        $this->available = $available != null ? $available : false;;
         $this->numberOfOrders = $numberOfOrders;
     }
 

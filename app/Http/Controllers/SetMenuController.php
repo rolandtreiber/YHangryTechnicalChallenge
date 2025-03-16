@@ -15,7 +15,7 @@ class SetMenuController extends Controller
         $this->setMenuService = $setMenuService;
     }
 
-    public function index(SetMenusIndexRequest $request, string $cuisineSlug = null)
+    public function index(SetMenusIndexRequest $request, ?string $cuisineSlug = null)
     {
         return SetMenusIndexResource::collection($this->setMenuService->getPaginatedResults($cuisineSlug, $request->page));
     }

@@ -9,7 +9,6 @@ use App\Http\Service\ApiDataHandlerServiceImpl;
 use App\Models\SetMenu;
 use Illuminate\Contracts\Container\BindingResolutionException;
 use Illuminate\Foundation\Testing\RefreshDatabase;
-use Illuminate\Support\Facades\DB;
 use PHPUnit\Framework\Attributes\Group;
 use Tests\Mock\Service\InvalidDataMockSetMenuApiServiceMissingCuisineName;
 use Tests\Mock\Service\InvalidDataMockSetMenuApiServiceMissingSetMenuValues;
