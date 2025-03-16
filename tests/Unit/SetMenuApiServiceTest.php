@@ -89,7 +89,6 @@ class SetMenuApiServiceTest extends TestCase
         do {
             $nextPage = $this->apiDataHandler->retrieveNextPage();
             $data = array_merge($data, $nextPage['data']);
-            var_dump("Next page: ");
         } while ($nextPage['links']['next']);
         $data = $this->apiDataHandler->extractData($data);
         $this->apiDataHandler->persistData($data);
