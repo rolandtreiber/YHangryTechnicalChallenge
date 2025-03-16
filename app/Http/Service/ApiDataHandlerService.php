@@ -11,4 +11,5 @@ interface ApiDataHandlerService
     public function extractData(array $data): Collection;
     public function persistData(Collection $setMenus): void;
     public function setActivePage(int $page): void;
+    public function getActivePage(): int;
 }

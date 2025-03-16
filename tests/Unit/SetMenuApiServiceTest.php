@@ -6,8 +6,10 @@ use App\Exceptions\CuisineCannotBeParsedException;
 use App\Exceptions\SetMenuCannotBeParsedException;
 use App\Http\Service\ApiDataHandlerService;
 use App\Http\Service\ApiDataHandlerServiceImpl;
+use App\Models\SetMenu;
 use Illuminate\Contracts\Container\BindingResolutionException;
 use Illuminate\Foundation\Testing\RefreshDatabase;
+use Illuminate\Support\Facades\DB;
 use PHPUnit\Framework\Attributes\Group;
 use Tests\Mock\Service\InvalidDataMockSetMenuApiServiceMissingCuisineName;
 use Tests\Mock\Service\InvalidDataMockSetMenuApiServiceMissingSetMenuValues;
@@ -81,7 +83,6 @@ class SetMenuApiServiceTest extends TestCase
      * @throws SetMenuCannotBeParsedException
      * @throws CuisineCannotBeParsedException|BindingResolutionException
      */
-    #[Group("work")]
     public function test_entire_dataset_is_persisted(): void
     {
         $data = $this->apiDataHandler->retrieveData(1)['data'];
@@ -96,6 +97,16 @@ class SetMenuApiServiceTest extends TestCase
 
         $this->assertDatabaseCount('cuisines', 15);
         $this->assertDatabaseCount('set_menus', 80);
+    }
+
+    public function test_relationships_were_persisted(): void
+    {
+        $data = $this->apiDataHandler->extractData($this->apiDataHandler->retrieveData(1)['data']);
+        $this->apiDataHandler->persistData($data);
+
+        $menu = SetMenu::first();
+        $this->assertCount(1, $menu->cuisines);
+        $this->assertDatabaseCount('cuisine_set_menu', 10);
     }
 
 }

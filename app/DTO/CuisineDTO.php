@@ -34,4 +34,10 @@ class CuisineDTO
             "slug" => $this->slug,
         ];
     }
+
+    public function getId(): int
+    {
+        return $this->id;
+    }
+
 }

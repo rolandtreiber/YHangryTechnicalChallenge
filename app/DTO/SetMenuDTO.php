@@ -53,7 +53,7 @@ class SetMenuDTO
     private bool $available;
     private int $numberOfOrders;
 
-    public function __construct(Carbon $createdAt, string $name, ?string $description, bool $displayText, string $image, string $thumbnail, bool $isVegan, bool $isVegetarian, bool $status, float $pricePerPerson, float $minSpend, bool $isSeated, bool $isStanding, bool $isCanape, bool $isMixedDietary, bool $isMealPrep, bool $isHalal, bool $isKosher, bool $available, int $numberOfOrders)
+    public function __construct(Carbon $createdAt, string $name, ?string $description, bool $displayText, string $image, string $thumbnail, bool|null $isVegan, bool|null $isVegetarian, bool $status, float $pricePerPerson, float $minSpend, bool $isSeated, bool|null $isStanding, bool|null $isCanape, bool|null $isMixedDietary, bool|null $isMealPrep, bool|null $isHalal, bool|null $isKosher, bool|null $available, int $numberOfOrders)
     {
         $this->createdAt = $createdAt;
         $this->name = $name;
@@ -62,18 +62,18 @@ class SetMenuDTO
         $this->image = $image;
         $this->thumbnail = $thumbnail;
         $this->isVegan = $isVegan;
-        $this->isVegetarian = $isVegetarian;
+        $this->isVegetarian = $isVegetarian !== null ? $isVegetarian : false;;
         $this->status = $status;
         $this->pricePerPerson = $pricePerPerson;
         $this->minSpend = $minSpend;
-        $this->isSeated = $isSeated;
-        $this->isStanding = $isStanding;
-        $this->isCanape = $isCanape;
-        $this->isMixedDietary = $isMixedDietary;
-        $this->isMealPrep = $isMealPrep;
-        $this->isHalal = $isHalal;
-        $this->isKosher = $isKosher;
-        $this->available = $available;
+        $this->isSeated = $isSeated !== null ? $isSeated : false;
+        $this->isStanding = $isStanding !== null ? $isStanding : false;
+        $this->isCanape = $isCanape !== null ? $isCanape : false;
+        $this->isMixedDietary = $isMixedDietary !== null ? $isMixedDietary : false;
+        $this->isMealPrep = $isMealPrep !== null ? $isMealPrep : false;
+        $this->isHalal = $isHalal !== null ? $isHalal : false;
+        $this->isKosher = $isKosher !== null ? $isKosher : false;
+        $this->available = $available !== null ? $available : false;;
         $this->numberOfOrders = $numberOfOrders;
     }
 

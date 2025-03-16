@@ -9,6 +9,7 @@ use App\Exceptions\SetMenuCannotBeParsedException;
 use Carbon\Carbon;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\DB;
+use Throwable;
 
 class ApiDataHandlerServiceImpl implements ApiDataHandlerService
 {
@@ -24,11 +25,6 @@ class ApiDataHandlerServiceImpl implements ApiDataHandlerService
     public function __construct(SetMenuApiService $setMenuApiService)
     {
         $this->setMenuApiService = $setMenuApiService;
-    }
-
-    public function setActivePage($page): void
-    {
-        self::$activePage = $page;
     }
 
     /**
@@ -115,11 +111,49 @@ class ApiDataHandlerServiceImpl implements ApiDataHandlerService
         $cuisinesToPersist = [];
         $setMenusToPersist = [];
         foreach ($setMenus as $setMenu) {
-            $cuisinesToPersist = array_merge($cuisinesToPersist, $setMenu->getCuisines()->map(function ($cuisine) { return $cuisine->get(); })->toArray());
+            $cuisinesToPersist = array_merge($cuisinesToPersist, $setMenu->getCuisines()->map(function ($cuisine) {
+                return $cuisine->get();
+            })->toArray());
             $setMenusToPersist[] = $setMenu->get();
         }
-        DB::table('set_menus')->insertOrIgnore($setMenusToPersist);
-        DB::table('cuisines')->insertOrIgnore($cuisinesToPersist);
-        DB::commit();
+        try {
+            DB::table('set_menus')->insertOrIgnore($setMenusToPersist);
+            DB::table('cuisines')->insertOrIgnore($cuisinesToPersist);
+            DB::commit();
+        } catch (Throwable $e) {
+            DB::rollBack();
+        }
+
+        $savedSetMenus = DB::table('set_menus')->select("id", "name")->get();
+        $cuisineSetMenus = [];
+
+        DB::beginTransaction();
+        try {
+            foreach ($setMenus as $setMenu) {
+                foreach ($setMenu->getCuisines() as $cuisine) {
+                    $setMenuId = $savedSetMenus->where("name", $setMenu->get()['name'])->firstOrFail()->id;
+                    $cuisineSetMenus[] = [
+                        "cuisine_id" => $cuisine->getId(),
+                        "set_menu_id" => $setMenuId,
+                    ];
+                }
+            }
+            DB::table('cuisine_set_menu')->insertOrIgnore($cuisineSetMenus);
+            DB::commit();
+        } catch (Throwable $e) {
+            DB::rollBack();
+        }
+
     }
+
+    public function setActivePage($page): void
+    {
+        self::$activePage = $page;
+    }
+
+    public function getActivePage(): int
+    {
+        return self::$activePage;
+    }
+
 }
