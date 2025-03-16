@@ -3,6 +3,7 @@
 namespace App\Models;
 
 use Carbon\Carbon;
+use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 use Illuminate\Support\Collection;
@@ -34,6 +35,8 @@ use Illuminate\Support\Collection;
  */
 class SetMenu extends Model
 {
+    use HasFactory;
+
     protected $fillable = ["name", "name", "description", "display_text", "image", "thumbnail",
             "is_vegan", "is_vegetarian", "status", "price_per_person", "min_spend", "is_seated", "is_standing",
             "is_canape", "is_mixed_dietary", "is_meal_prep", "is_halal", "is_kosher", "available", "number_of_orders"];
