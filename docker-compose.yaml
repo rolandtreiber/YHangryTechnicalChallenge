@@ -1,0 +1,68 @@
+networks:
+  app-network:
+    external: false
+    name: app-network
+    driver: bridge
+
+services:
+  yh-site:
+    build:
+      context: docker-config/dockerfiles
+      dockerfile: nginx.dockerfile
+      args:
+        - UID=${UID:-1000}
+        - GID=${GID:-1000}
+        - USER=${USER:-youruser}
+    container_name: yh-site
+    ports:
+      - 80:80
+    volumes:
+      - ./:/var/www/html:delegated
+    working_dir: /var/www/html
+    depends_on:
+      - yh-php
+      - yh-redis
+      - yh-mysql
+    networks:
+      - app-network
+
+  yh-mysql:
+    image: mysql:8.2
+    command: --default-authentication-plugin=mysql_native_password
+    container_name: yh-mysql
+    tty: true
+    ports:
+      - 3306:3306
+    volumes:
+      - ./init:/docker-entrypoint-initdb.d
+    environment:
+      MYSQL_DATABASE: yhangry
+      MYSQL_USER: dbuser
+      MYSQL_PASSWORD: secret
+      MYSQL_ROOT_PASSWORD: secret
+      SERVICE_TAGS: dev
+      SERVICE_NAME: mysql
+    networks:
+      - app-network
+
+  yh-php:
+    build:
+      context: docker-config/dockerfiles
+      dockerfile: php.dockerfile
+      args:
+        - UID=${UID:-1000}
+        - GID=${GID:-1000}
+        - USER=${USER:-youruser}
+    container_name: yh-php
+    volumes:
+      - ./:/var/www/html:delegated
+    networks:
+      - app-network
+
+  yh-redis:
+    image: redis:alpine
+    container_name: yh-redis
+    ports:
+      - 6379:6379
+    networks:
+      - app-network

@@ -1,0 +1,85 @@
+{
+    "data": [
+        {
+            "created_at": "2022-02-23T16:57:05.000000Z",
+            "cuisines": [
+                {
+                    "id": 33
+                }
+            ],
+            "description": "An italian selection",
+            "display_text": 1,
+            "image": "https://d3gko8938onrvn.cloudfront.net/setmenus/images/19GUjCTWf4SkbHtYJumOrYFLUJ5qmeCB13rhv9pa.jpg",
+            "thumbnail": "https://d3gko8938onrvn.cloudfront.net/setmenus/thumbnails/0195641cf4f64f5d3f09bb31fa1aefa5.webp",
+            "is_vegan": 1,
+            "is_vegetarian": 1,
+            "name": "Italiano Delight",
+            "status": 1,
+            "groups": {
+                "dishes_count": 24,
+                "selectable_dishes_count": 6,
+                "groups": {
+                    "ungrouped": 0,
+                    "Starters": 1,
+                    "Mains": 1,
+                    "Sides": 1,
+                    "Dessert": 1
+                }
+            },
+            "price_per_person": 43,
+            "min_spend": 375,
+            "is_seated": 1,
+            "is_standing": 0,
+            "is_canape": 0,
+            "is_mixed_dietary": 1,
+            "is_meal_prep": 0,
+            "is_halal": 1,
+            "is_kosher": 1,
+            "price_includes": null,
+            "highlight": null,
+            "available": true,
+            "number_of_orders": 62
+        },
+        {
+            "created_at": "2022-03-09T18:49:37.000000Z",
+            "cuisines": [
+                {
+                    "id": 29,
+                    "name": "Pan Asian"
+                }
+            ],
+            "description": "An eclectic mix of flavorful Asian dishes from across the continent",
+            "display_text": 1,
+            "image": "https://d3gko8938onrvn.cloudfront.net/setmenus/images/EO7iGlN1E1pNNEM4FBPq9HVgntBD90n0W9D2fdRG.jpg",
+            "thumbnail": "https://d3gko8938onrvn.cloudfront.net/setmenus/thumbnails/dac592e5db2d50dfb9d0c96efb57aa12.webp",
+            "is_vegan": 1,
+            "is_vegetarian": 1,
+            "name": "Pan Asian Experience",
+            "status": 1,
+            "groups": {
+                "dishes_count": 34,
+                "selectable_dishes_count": 7,
+                "groups": {
+                    "ungrouped": 0,
+                    "Starter": 1,
+                    "Mains": 1,
+                    "Side dish": 1,
+                    "Dessert": 1
+                }
+            },
+            "price_per_person": 46,
+            "min_spend": 656,
+            "is_seated": 1,
+            "is_standing": 1,
+            "is_canape": 0,
+            "is_mixed_dietary": 1,
+            "is_meal_prep": 0,
+            "is_halal": 1,
+            "is_kosher": 1,
+            "price_includes": null,
+            "highlight": null,
+            "available": true,
+            "number_of_orders": 52
+        }
+    ]
+}

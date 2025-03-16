@@ -1,0 +1,3248 @@
+{
+    "data": [
+        {
+            "created_at": "2022-02-23T16:57:05.000000Z",
+            "cuisines": [
+                {
+                    "id": 33,
+                    "name": "Italian"
+                }
+            ],
+            "description": "An italian selection",
+            "display_text": 1,
+            "image": "https://d3gko8938onrvn.cloudfront.net/setmenus/images/19GUjCTWf4SkbHtYJumOrYFLUJ5qmeCB13rhv9pa.jpg",
+            "thumbnail": "https://d3gko8938onrvn.cloudfront.net/setmenus/thumbnails/0195641cf4f64f5d3f09bb31fa1aefa5.webp",
+            "is_vegan": 1,
+            "is_vegetarian": 1,
+            "name": "Italiano Delight",
+            "status": 1,
+            "groups": {
+                "dishes_count": 24,
+                "selectable_dishes_count": 6,
+                "groups": {
+                    "ungrouped": 0,
+                    "Starters": 1,
+                    "Mains": 1,
+                    "Sides": 1,
+                    "Dessert": 1
+                }
+            },
+            "price_per_person": 43,
+            "min_spend": 375,
+            "is_seated": 1,
+            "is_standing": 0,
+            "is_canape": 0,
+            "is_mixed_dietary": 1,
+            "is_meal_prep": 0,
+            "is_halal": 1,
+            "is_kosher": 1,
+            "price_includes": null,
+            "highlight": null,
+            "available": true,
+            "number_of_orders": 62
+        },
+        {
+            "created_at": "2022-03-09T18:49:37.000000Z",
+            "cuisines": [
+                {
+                    "id": 29,
+                    "name": "Pan Asian"
+                }
+            ],
+            "description": "An eclectic mix of flavorful Asian dishes from across the continent",
+            "display_text": 1,
+            "image": "https://d3gko8938onrvn.cloudfront.net/setmenus/images/EO7iGlN1E1pNNEM4FBPq9HVgntBD90n0W9D2fdRG.jpg",
+            "thumbnail": "https://d3gko8938onrvn.cloudfront.net/setmenus/thumbnails/dac592e5db2d50dfb9d0c96efb57aa12.webp",
+            "is_vegan": 1,
+            "is_vegetarian": 1,
+            "name": "Pan Asian Experience",
+            "status": 1,
+            "groups": {
+                "dishes_count": 34,
+                "selectable_dishes_count": 7,
+                "groups": {
+                    "ungrouped": 0,
+                    "Starter": 1,
+                    "Mains": 1,
+                    "Side dish": 1,
+                    "Dessert": 1
+                }
+            },
+            "price_per_person": 46,
+            "min_spend": 656,
+            "is_seated": 1,
+            "is_standing": 1,
+            "is_canape": 0,
+            "is_mixed_dietary": 1,
+            "is_meal_prep": 0,
+            "is_halal": 1,
+            "is_kosher": 1,
+            "price_includes": null,
+            "highlight": null,
+            "available": true,
+            "number_of_orders": 52
+        },
+        {
+            "created_at": "2022-02-23T16:39:58.000000Z",
+            "cuisines": [
+                {
+                    "id": 33,
+                    "name": "Italian"
+                }
+            ],
+            "description": "A simple and elegant italian menu",
+            "display_text": 1,
+            "image": "https://d3gko8938onrvn.cloudfront.net/setmenus/images/EKObIqJiALu4nRUgIrwiitIim9TmvXdbqdegMZnt.jpg",
+            "thumbnail": "https://d3gko8938onrvn.cloudfront.net/setmenus/thumbnails/7e71895a873c29731451f8a76862285c.webp",
+            "is_vegan": 1,
+            "is_vegetarian": 1,
+            "name": "Semplice Italiano",
+            "status": 1,
+            "groups": {
+                "dishes_count": 11,
+                "selectable_dishes_count": 3,
+                "groups": {
+                    "ungrouped": 0,
+                    "Starter": 1,
+                    "Main": 1,
+                    "Dessert": 1
+                }
+            },
+            "price_per_person": 37,
+            "min_spend": 375,
+            "is_seated": 1,
+            "is_standing": 0,
+            "is_canape": 0,
+            "is_mixed_dietary": 1,
+            "is_meal_prep": 0,
+            "is_halal": 1,
+            "is_kosher": 1,
+            "price_includes": null,
+            "highlight": null,
+            "available": true,
+            "number_of_orders": 37
+        },
+        {
+            "created_at": "2022-02-20T05:28:55.000000Z",
+            "cuisines": [
+                {
+                    "id": 29,
+                    "name": "Pan Asian"
+                }
+            ],
+            "description": "Pan Asian flavours",
+            "display_text": 0,
+            "image": "https://d3gko8938onrvn.cloudfront.net/setmenus/images/JgcLxtYZJFWbHEPfaKagziCo2iE7KRdkXYlrPA7H.jpg",
+            "thumbnail": "https://d3gko8938onrvn.cloudfront.net/setmenus/thumbnails/58c66f405d2d1164dfc7b763562659e3.webp",
+            "is_vegan": 1,
+            "is_vegetarian": 1,
+            "name": "Amazing Flavours of Pan Asia",
+            "status": 1,
+            "groups": {
+                "dishes_count": 27,
+                "selectable_dishes_count": 6,
+                "groups": {
+                    "ungrouped": 0,
+                    "Sharing Plates": 1,
+                    "Sides": 1,
+                    "Dessert": 1
+                }
+            },
+            "price_per_person": 46,
+            "min_spend": 250,
+            "is_seated": 0,
+            "is_standing": 1,
+            "is_canape": 0,
+            "is_mixed_dietary": 1,
+            "is_meal_prep": 0,
+            "is_halal": 1,
+            "is_kosher": 0,
+            "price_includes": null,
+            "highlight": null,
+            "available": true,
+            "number_of_orders": 36
+        },
+        {
+            "created_at": "2022-03-11T15:04:47.000000Z",
+            "cuisines": [
+                {
+                    "id": 22,
+                    "name": "Fine Dining"
+                }
+            ],
+            "description": "A simple but effective three course presented by Masterchef Sammy",
+            "display_text": 1,
+            "image": "https://d3gko8938onrvn.cloudfront.net/setmenus/thumbnails/3pclEKrdrzkuqskH9jJt5dNNHaYCrXqb1c5DHTHt.jpg",
+            "thumbnail": "https://d3gko8938onrvn.cloudfront.net/setmenus/thumbnails/98ff00a53a49c52ac3f3a74762d40694.webp",
+            "is_vegan": 0,
+            "is_vegetarian": 0,
+            "name": "Fine Dine with Sammy",
+            "status": 1,
+            "groups": {
+                "dishes_count": 28,
+                "selectable_dishes_count": 3,
+                "groups": {
+                    "ungrouped": 0,
+                    "Canape": 1,
+                    "Starter": 1,
+                    "Mains": 1,
+                    "Dessert": 1
+                }
+            },
+            "price_per_person": 81,
+            "min_spend": 394,
+            "is_seated": 1,
+            "is_standing": 0,
+            "is_canape": 0,
+            "is_mixed_dietary": 0,
+            "is_meal_prep": 0,
+            "is_halal": 1,
+            "is_kosher": 1,
+            "price_includes": null,
+            "highlight": null,
+            "available": true,
+            "number_of_orders": 32
+        },
+        {
+            "created_at": "2022-03-10T12:29:57.000000Z",
+            "cuisines": [
+                {
+                    "id": 25,
+                    "name": "BBQ"
+                }
+            ],
+            "description": "A traditional BBQ with the world flavours in mind",
+            "display_text": 1,
+            "image": "https://d3gko8938onrvn.cloudfront.net/setmenus/thumbnails/sbBFZImpTjljr2lQ7r9sQlhrjTVFsaJwichNlfJX.png",
+            "thumbnail": "https://d3gko8938onrvn.cloudfront.net/setmenus/thumbnails/924d80047aa4a2e757219f591c0e3969.webp",
+            "is_vegan": 1,
+            "is_vegetarian": 1,
+            "name": "The Exotic BBQ",
+            "status": 1,
+            "groups": {
+                "dishes_count": 29,
+                "selectable_dishes_count": 5,
+                "groups": {
+                    "ungrouped": 0,
+                    "Main Dish": 1,
+                    "Side Dish": 1,
+                    "Dessert": 1
+                }
+            },
+            "price_per_person": 33,
+            "min_spend": 250,
+            "is_seated": 0,
+            "is_standing": 1,
+            "is_canape": 0,
+            "is_mixed_dietary": 1,
+            "is_meal_prep": 0,
+            "is_halal": 1,
+            "is_kosher": 1,
+            "price_includes": null,
+            "highlight": null,
+            "available": true,
+            "number_of_orders": 32
+        },
+        {
+            "created_at": "2022-03-03T15:05:17.000000Z",
+            "cuisines": [
+                {
+                    "id": 33,
+                    "name": "Italian"
+                }
+            ],
+            "description": "Authentic Italian Feasta with Variety Option to Please you and your guests.",
+            "display_text": 0,
+            "image": "https://d3gko8938onrvn.cloudfront.net/setmenus/images/iN628SyXSXkOtmAPp2wzTKyPWwojo9HCoCIlH1GA.jpg",
+            "thumbnail": "https://d3gko8938onrvn.cloudfront.net/setmenus/thumbnails/17e0788a190414d33753d4a93adbbed6.webp",
+            "is_vegan": 0,
+            "is_vegetarian": 1,
+            "name": "Viva L'Italia",
+            "status": 1,
+            "groups": {
+                "dishes_count": 30,
+                "selectable_dishes_count": 5,
+                "groups": {
+                    "ungrouped": 0,
+                    "Starter": 1,
+                    "Main": 1,
+                    "Side": 1,
+                    "Dessert": 1
+                }
+            },
+            "price_per_person": 43,
+            "min_spend": 225,
+            "is_seated": 1,
+            "is_standing": 1,
+            "is_canape": 0,
+            "is_mixed_dietary": 1,
+            "is_meal_prep": 0,
+            "is_halal": 1,
+            "is_kosher": 0,
+            "price_includes": null,
+            "highlight": null,
+            "available": true,
+            "number_of_orders": 32
+        },
+        {
+            "created_at": "2022-06-01T16:43:36.000000Z",
+            "cuisines": [
+                {
+                    "id": 38,
+                    "name": "Indian"
+                }
+            ],
+            "description": "Want a Michelin star experience ?",
+            "display_text": 1,
+            "image": "https://d3gko8938onrvn.cloudfront.net/setmenus/images/Z2hYxW2qBrEtkfl5IStwBCeb12779hSErazNJqcg.png",
+            "thumbnail": "https://d3gko8938onrvn.cloudfront.net/setmenus/thumbnails/07a57c09c5d93d3dcfb09e2cab5b5af7.webp",
+            "is_vegan": 1,
+            "is_vegetarian": 1,
+            "name": "Desi Culinary Extravaganza",
+            "status": 1,
+            "groups": {
+                "dishes_count": 27,
+                "selectable_dishes_count": 7,
+                "groups": {
+                    "ungrouped": 0,
+                    "Starter": 1,
+                    "Main Dish": 1,
+                    "Side Dish": 1,
+                    "Dessert": 1
+                }
+            },
+            "price_per_person": 57,
+            "min_spend": 250,
+            "is_seated": 0,
+            "is_standing": 1,
+            "is_canape": 0,
+            "is_mixed_dietary": 1,
+            "is_meal_prep": 0,
+            "is_halal": 1,
+            "is_kosher": 1,
+            "price_includes": null,
+            "highlight": null,
+            "available": true,
+            "number_of_orders": 29
+        },
+        {
+            "created_at": "2022-02-22T12:10:20.000000Z",
+            "cuisines": [
+                {
+                    "id": 37,
+                    "name": "Middle Eastern"
+                }
+            ],
+            "description": "Middle eastern journey",
+            "display_text": 0,
+            "image": "https://d3gko8938onrvn.cloudfront.net/setmenus/images/laqdbbkbGVx8FRfHrI9iGpJdlTul6tG1e3Rw3XGD.png",
+            "thumbnail": "https://d3gko8938onrvn.cloudfront.net/setmenus/thumbnails/dcbce57d21788e1779212f55c990b51f.webp",
+            "is_vegan": 1,
+            "is_vegetarian": 1,
+            "name": "A Middle Eastern Adventure",
+            "status": 1,
+            "groups": {
+                "dishes_count": 28,
+                "selectable_dishes_count": 7,
+                "groups": {
+                    "ungrouped": 0,
+                    "Starters": 1,
+                    "Mains": 1,
+                    "Sides": 1,
+                    "Desserts": 1
+                }
+            },
+            "price_per_person": 37,
+            "min_spend": 225,
+            "is_seated": 1,
+            "is_standing": 1,
+            "is_canape": 0,
+            "is_mixed_dietary": 1,
+            "is_meal_prep": 0,
+            "is_halal": 1,
+            "is_kosher": 1,
+            "price_includes": null,
+            "highlight": null,
+            "available": true,
+            "number_of_orders": 26
+        },
+        {
+            "created_at": "2022-04-26T18:54:09.000000Z",
+            "cuisines": [
+                {
+                    "id": 29,
+                    "name": "Pan Asian"
+                }
+            ],
+            "description": "Food trip around the Southeast Asian countries",
+            "display_text": 1,
+            "image": "https://d3gko8938onrvn.cloudfront.net/setmenus/images/cj2iv4Ya7ifeoyQxcVnU3RDfge9poVzVMQdOELU2.jpg",
+            "thumbnail": "https://d3gko8938onrvn.cloudfront.net/setmenus/thumbnails/c50928d8ba0f8ea1e919bebe4b3d8175.webp",
+            "is_vegan": 1,
+            "is_vegetarian": 1,
+            "name": "Journey Through the Orient",
+            "status": 1,
+            "groups": {
+                "dishes_count": 27,
+                "selectable_dishes_count": 5,
+                "groups": {
+                    "ungrouped": 0,
+                    "Starter": 1,
+                    "Main Dish": 1,
+                    "Side Dish": 1,
+                    "Dessert": 1
+                }
+            },
+            "price_per_person": 43,
+            "min_spend": 225,
+            "is_seated": 1,
+            "is_standing": 0,
+            "is_canape": 0,
+            "is_mixed_dietary": 0,
+            "is_meal_prep": 0,
+            "is_halal": 1,
+            "is_kosher": 1,
+            "price_includes": null,
+            "highlight": null,
+            "available": true,
+            "number_of_orders": 22
+        },
+        {
+            "created_at": "2022-03-08T13:53:48.000000Z",
+            "cuisines": [
+                {
+                    "id": 29,
+                    "name": "Pan Asian"
+                }
+            ],
+            "description": "Amazing Pan Asian Menu",
+            "display_text": 1,
+            "image": "https://d3gko8938onrvn.cloudfront.net/setmenus/thumbnails/rESKNltSPneSTga2blaVEslM7Emhp5BhlnkSZ34y.jpg",
+            "thumbnail": "https://d3gko8938onrvn.cloudfront.net/setmenus/thumbnails/05ee0331a1c5d13e3b4f5688e0b53985.webp",
+            "is_vegan": 1,
+            "is_vegetarian": 1,
+            "name": "The Pan Asian Platter",
+            "status": 1,
+            "groups": {
+                "dishes_count": 25,
+                "selectable_dishes_count": 4,
+                "groups": {
+                    "ungrouped": 0,
+                    "Starter": 1,
+                    "Main Dish": 1,
+                    "Side Dish": 1,
+                    "Dessert": 1
+                }
+            },
+            "price_per_person": 41,
+            "min_spend": 250,
+            "is_seated": 0,
+            "is_standing": 1,
+            "is_canape": 0,
+            "is_mixed_dietary": 1,
+            "is_meal_prep": 0,
+            "is_halal": 1,
+            "is_kosher": 1,
+            "price_includes": null,
+            "highlight": null,
+            "available": true,
+            "number_of_orders": 20
+        },
+        {
+            "created_at": "2022-02-24T18:31:42.000000Z",
+            "cuisines": [
+                {
+                    "id": 38,
+                    "name": "Indian"
+                }
+            ],
+            "description": "--",
+            "display_text": 1,
+            "image": "https://d3gko8938onrvn.cloudfront.net/setmenus/images/YoKfZcLTL9pqEACtZcnH6kRQunkNDZ80ClAW0EAS.jpg",
+            "thumbnail": "https://d3gko8938onrvn.cloudfront.net/setmenus/thumbnails/dd7af771d2bbccf02760180c8b8b68c0.webp",
+            "is_vegan": 1,
+            "is_vegetarian": 1,
+            "name": "Authentic Indian Feast",
+            "status": 1,
+            "groups": {
+                "dishes_count": 31,
+                "selectable_dishes_count": 6,
+                "groups": {
+                    "ungrouped": 0,
+                    "Sharing Plates": 1,
+                    "Desserts": 1,
+                    "Starter": 1,
+                    "Side Dish": 1
+                }
+            },
+            "price_per_person": 41,
+            "min_spend": 250,
+            "is_seated": 0,
+            "is_standing": 1,
+            "is_canape": 0,
+            "is_mixed_dietary": 1,
+            "is_meal_prep": 0,
+            "is_halal": 0,
+            "is_kosher": 0,
+            "price_includes": null,
+            "highlight": null,
+            "available": true,
+            "number_of_orders": 19
+        },
+        {
+            "created_at": "2022-03-14T14:14:38.000000Z",
+            "cuisines": [
+                {
+                    "id": 39,
+                    "name": "Mexican"
+                }
+            ],
+            "description": "Amazing Mexican food blended with authentic herbs and spices, and made with love!",
+            "display_text": 1,
+            "image": "https://d3gko8938onrvn.cloudfront.net/setmenus/thumbnails/4vIpoNrtIOqD9N8CtJSzK4TtGSn36KTCf97lxXt5.jpg",
+            "thumbnail": "https://d3gko8938onrvn.cloudfront.net/setmenus/thumbnails/a5c795b87da1ffce94ea9789660364c5.webp",
+            "is_vegan": 1,
+            "is_vegetarian": 1,
+            "name": "Party A la Mexicana",
+            "status": 1,
+            "groups": {
+                "dishes_count": 11,
+                "selectable_dishes_count": 3,
+                "groups": {
+                    "ungrouped": 0,
+                    "Starter": 1,
+                    "Main Dish": 1,
+                    "Dessert": 1
+                }
+            },
+            "price_per_person": 32,
+            "min_spend": 250,
+            "is_seated": 1,
+            "is_standing": 1,
+            "is_canape": 1,
+            "is_mixed_dietary": 1,
+            "is_meal_prep": 0,
+            "is_halal": 0,
+            "is_kosher": 0,
+            "price_includes": null,
+            "highlight": null,
+            "available": true,
+            "number_of_orders": 17
+        },
+        {
+            "created_at": "2022-04-25T12:16:46.000000Z",
+            "cuisines": [
+                {
+                    "id": 29,
+                    "name": "Pan Asian"
+                }
+            ],
+            "description": "Best served sharing with friends!",
+            "display_text": 1,
+            "image": "https://d3gko8938onrvn.cloudfront.net/setmenus/images/AWvYMHJWOXa0ePCZyDexeODoECBy6DR1wtMcRBUz.jpg",
+            "thumbnail": "https://d3gko8938onrvn.cloudfront.net/setmenus/thumbnails/a366b51964ebea9e4cdd1e66adaaad6a.webp",
+            "is_vegan": 1,
+            "is_vegetarian": 1,
+            "name": "Emperor selection",
+            "status": 1,
+            "groups": {
+                "dishes_count": 25,
+                "selectable_dishes_count": 6,
+                "groups": {
+                    "ungrouped": 0,
+                    "Starter": 1,
+                    "Main Dish": 1,
+                    "Side Dish": 1,
+                    "Dessert": 1
+                }
+            },
+            "price_per_person": 41,
+            "min_spend": 188,
+            "is_seated": 1,
+            "is_standing": 1,
+            "is_canape": 0,
+            "is_mixed_dietary": 1,
+            "is_meal_prep": 0,
+            "is_halal": 1,
+            "is_kosher": 0,
+            "price_includes": null,
+            "highlight": null,
+            "available": true,
+            "number_of_orders": 15
+        },
+        {
+            "created_at": "2022-03-21T14:35:07.000000Z",
+            "cuisines": [
+                {
+                    "id": 33,
+                    "name": "Italian"
+                }
+            ],
+            "description": "This Menu was created for all dietary needs, Inspired from my experience at Jamie Oliver's Italian",
+            "display_text": 0,
+            "image": "https://d3gko8938onrvn.cloudfront.net/setmenus/images/7IoOvILZNiYNgXNLzv8Kc6fcv7buUkVGKFEj1n2o.jpg",
+            "thumbnail": "https://d3gko8938onrvn.cloudfront.net/setmenus/thumbnails/aaa150edac8569ee9f906363fee275ae.webp",
+            "is_vegan": 1,
+            "is_vegetarian": 1,
+            "name": "'La Bella Vita' Italian Fusion",
+            "status": 1,
+            "groups": {
+                "dishes_count": 25,
+                "selectable_dishes_count": 4,
+                "groups": {
+                    "ungrouped": 0,
+                    "Starter": 1,
+                    "Main Dish": 1,
+                    "Side Dish": 1,
+                    "Dessert": 1,
+                    "Add On": 1
+                }
+            },
+            "price_per_person": 37,
+            "min_spend": 250,
+            "is_seated": 1,
+            "is_standing": 1,
+            "is_canape": 0,
+            "is_mixed_dietary": 1,
+            "is_meal_prep": 0,
+            "is_halal": 1,
+            "is_kosher": 1,
+            "price_includes": null,
+            "highlight": null,
+            "available": true,
+            "number_of_orders": 15
+        },
+        {
+            "created_at": "2022-03-14T12:08:03.000000Z",
+            "cuisines": [
+                {
+                    "id": 38,
+                    "name": "Indian"
+                }
+            ],
+            "description": "Authentic Indian Taste",
+            "display_text": 1,
+            "image": "https://d3gko8938onrvn.cloudfront.net/setmenus/images/dzEeDKRhNFdNODBDaabW2VAXov3VEMwitucer4HZ.jpg",
+            "thumbnail": "https://d3gko8938onrvn.cloudfront.net/setmenus/thumbnails/109fbfe009904fadf15179a891a836e3.webp",
+            "is_vegan": 1,
+            "is_vegetarian": 1,
+            "name": "Indian Spice Kitchen",
+            "status": 1,
+            "groups": {
+                "dishes_count": 30,
+                "selectable_dishes_count": 8,
+                "groups": {
+                    "ungrouped": 0,
+                    "Starter": 1,
+                    "Main Dish": 1,
+                    "Side Dish": 1,
+                    "Dessert": 1,
+                    "Add On": 1
+                }
+            },
+            "price_per_person": 47,
+            "min_spend": 313,
+            "is_seated": 1,
+            "is_standing": 1,
+            "is_canape": 0,
+            "is_mixed_dietary": 1,
+            "is_meal_prep": 0,
+            "is_halal": 1,
+            "is_kosher": 0,
+            "price_includes": null,
+            "highlight": null,
+            "available": true,
+            "number_of_orders": 15
+        },
+        {
+            "created_at": "2022-02-18T17:01:13.000000Z",
+            "cuisines": [
+                {
+                    "id": 33,
+                    "name": "Italian"
+                }
+            ],
+            "description": null,
+            "display_text": 0,
+            "image": "https://d3gko8938onrvn.cloudfront.net/setmenus/images/sYPDWthNNBb6d4yTD7Bb7OxIX4J42YQ52S2xBLn8.jpg",
+            "thumbnail": "https://d3gko8938onrvn.cloudfront.net/setmenus/thumbnails/eef265801a2f9b111967e68364861c2b.webp",
+            "is_vegan": 1,
+            "is_vegetarian": 1,
+            "name": "O Italia!",
+            "status": 1,
+            "groups": {
+                "dishes_count": 13,
+                "selectable_dishes_count": 6,
+                "groups": {
+                    "ungrouped": 0,
+                    "To Start": 1,
+                    "Mains": 1,
+                    "Sides": 1,
+                    "Dessert": 1
+                }
+            },
+            "price_per_person": 62,
+            "min_spend": 188,
+            "is_seated": 1,
+            "is_standing": 1,
+            "is_canape": 0,
+            "is_mixed_dietary": 1,
+            "is_meal_prep": 0,
+            "is_halal": 0,
+            "is_kosher": 0,
+            "price_includes": null,
+            "highlight": null,
+            "available": true,
+            "number_of_orders": 15
+        },
+        {
+            "created_at": "2022-03-23T00:12:50.000000Z",
+            "cuisines": [
+                {
+                    "id": 25,
+                    "name": "BBQ"
+                }
+            ],
+            "description": "Sunny day? Let's get friends together and make barbecue!!",
+            "display_text": 1,
+            "image": "https://d3gko8938onrvn.cloudfront.net/setmenus/thumbnails/Ji1uAGIQrYSMyGdrWtYMJblpKH2vAD05OHAKvW2w.jpg",
+            "thumbnail": "https://d3gko8938onrvn.cloudfront.net/setmenus/thumbnails/dd7d9e08a42530e38386297ef8d6140e.webp",
+            "is_vegan": 1,
+            "is_vegetarian": 1,
+            "name": "Let's Do Barbecue!",
+            "status": 1,
+            "groups": {
+                "dishes_count": 28,
+                "selectable_dishes_count": 4,
+                "groups": {
+                    "ungrouped": 0,
+                    "Main Dish": 1,
+                    "Side Dish": 1,
+                    "Dessert": 1
+                }
+            },
+            "price_per_person": 41,
+            "min_spend": 188,
+            "is_seated": 0,
+            "is_standing": 1,
+            "is_canape": 0,
+            "is_mixed_dietary": 1,
+            "is_meal_prep": 0,
+            "is_halal": 1,
+            "is_kosher": 1,
+            "price_includes": null,
+            "highlight": null,
+            "available": true,
+            "number_of_orders": 14
+        },
+        {
+            "created_at": "2022-03-14T17:03:18.000000Z",
+            "cuisines": [
+                {
+                    "id": 25,
+                    "name": "BBQ"
+                }
+            ],
+            "description": "Welcome the sunny days to come, with great food, few drinks and a chef doing a bbq for you and you drown in nature's bounty",
+            "display_text": 1,
+            "image": "https://d3gko8938onrvn.cloudfront.net/setmenus/thumbnails/Z5jpjdUCbQm9KN9viNT87PF2cZk93pLCtrPCoosP.jpg",
+            "thumbnail": "https://d3gko8938onrvn.cloudfront.net/setmenus/thumbnails/2fd75cc7e1e015b276bb22589578382b.webp",
+            "is_vegan": 1,
+            "is_vegetarian": 1,
+            "name": "BBQ for sunny days",
+            "status": 1,
+            "groups": {
+                "dishes_count": 5,
+                "selectable_dishes_count": 3,
+                "groups": {
+                    "ungrouped": 0,
+                    "Main Dish": 1,
+                    "Side Dish": 1
+                }
+            },
+            "price_per_person": 28,
+            "min_spend": 188,
+            "is_seated": 0,
+            "is_standing": 1,
+            "is_canape": 0,
+            "is_mixed_dietary": 1,
+            "is_meal_prep": 0,
+            "is_halal": 1,
+            "is_kosher": 1,
+            "price_includes": null,
+            "highlight": null,
+            "available": true,
+            "number_of_orders": 14
+        },
+        {
+            "created_at": "2022-02-28T15:37:18.000000Z",
+            "cuisines": [
+                {
+                    "id": 33,
+                    "name": "Italian"
+                }
+            ],
+            "description": null,
+            "display_text": 0,
+            "image": "https://d3gko8938onrvn.cloudfront.net/setmenus/images/P1amwHeT2jYfOYDeDF3AVxMr7nidlYx3s01l0xNQ.jpg",
+            "thumbnail": "https://d3gko8938onrvn.cloudfront.net/setmenus/thumbnails/a28e858856d3e21c964265858901dd0d.webp",
+            "is_vegan": 0,
+            "is_vegetarian": 0,
+            "name": "Charlie's Puglian Paradise",
+            "status": 1,
+            "groups": {
+                "dishes_count": 9,
+                "selectable_dishes_count": 3,
+                "groups": {
+                    "ungrouped": 0,
+                    "mains": 1,
+                    "starter": 1,
+                    "desserts": 1
+                }
+            },
+            "price_per_person": 37,
+            "min_spend": 250,
+            "is_seated": 1,
+            "is_standing": 0,
+            "is_canape": 0,
+            "is_mixed_dietary": 1,
+            "is_meal_prep": 0,
+            "is_halal": 0,
+            "is_kosher": 0,
+            "price_includes": null,
+            "highlight": null,
+            "available": true,
+            "number_of_orders": 14
+        },
+        {
+            "created_at": "2022-04-13T15:44:43.000000Z",
+            "cuisines": [
+                {
+                    "id": 22,
+                    "name": "Fine Dining"
+                }
+            ],
+            "description": "If you want to be treated like luxury, spoiled to the core, this is the menu for you",
+            "display_text": 1,
+            "image": "https://d3gko8938onrvn.cloudfront.net/setmenus/images/gNLGHZHdvF0BGawjQ9ChV7oN0NgB8cgyG2m9UJka.jpg",
+            "thumbnail": "https://d3gko8938onrvn.cloudfront.net/setmenus/thumbnails/0795dcd4f501ce7c81b5e7e59c0c36e1.webp",
+            "is_vegan": 1,
+            "is_vegetarian": 1,
+            "name": "Chef's 6 course Deluxe Menu",
+            "status": 1,
+            "groups": {
+                "dishes_count": 14,
+                "selectable_dishes_count": 5,
+                "groups": {
+                    "ungrouped": 0,
+                    "From the Chef": 1,
+                    "Starter": 1,
+                    "Main Dish": 1,
+                    "Palate Cleaser": 1,
+                    "Dessert": 1,
+                    "Cheese": 1,
+                    "Sweet": 1
+                }
+            },
+            "price_per_person": 132,
+            "min_spend": 388,
+            "is_seated": 1,
+            "is_standing": 0,
+            "is_canape": 0,
+            "is_mixed_dietary": 1,
+            "is_meal_prep": 0,
+            "is_halal": 1,
+            "is_kosher": 0,
+            "price_includes": null,
+            "highlight": null,
+            "available": true,
+            "number_of_orders": 13
+        },
+        {
+            "created_at": "2022-04-08T15:59:31.000000Z",
+            "cuisines": [
+                {
+                    "id": 22,
+                    "name": "Fine Dining"
+                }
+            ],
+            "description": "Refined and Beautifully Plated Modern European Fine Dining",
+            "display_text": 1,
+            "image": "https://d3gko8938onrvn.cloudfront.net/setmenus/images/khmvr72az6CKso8lZC0FXMzbcxWodYORPEiaR4aL.jpg",
+            "thumbnail": "https://d3gko8938onrvn.cloudfront.net/setmenus/thumbnails/2f3671e7d323152efaa5670128c17078.webp",
+            "is_vegan": 0,
+            "is_vegetarian": 1,
+            "name": "Fabulous Fine Dining",
+            "status": 1,
+            "groups": {
+                "dishes_count": 12,
+                "selectable_dishes_count": 3,
+                "groups": {
+                    "ungrouped": 0,
+                    "Starter": 1,
+                    "Main Dish": 1,
+                    "Dessert": 1
+                }
+            },
+            "price_per_person": 93,
+            "min_spend": 125,
+            "is_seated": 1,
+            "is_standing": 0,
+            "is_canape": 0,
+            "is_mixed_dietary": 1,
+            "is_meal_prep": 0,
+            "is_halal": 1,
+            "is_kosher": 0,
+            "price_includes": null,
+            "highlight": null,
+            "available": true,
+            "number_of_orders": 13
+        },
+        {
+            "created_at": "2022-02-14T16:46:34.000000Z",
+            "cuisines": [
+                {
+                    "id": 46,
+                    "name": "Modern European"
+                }
+            ],
+            "description": "A delicious and authentic Greek menu that will make you feel like you are on a holiday at one of the greek islands",
+            "display_text": 0,
+            "image": "https://d3gko8938onrvn.cloudfront.net/setmenus/images/tzwTxHQBMSsmE1KHpt7biM2xtFL7s7HKboV8moN4.jpg",
+            "thumbnail": "https://d3gko8938onrvn.cloudfront.net/setmenus/thumbnails/df018c93be0fec15c3dbc47ef42ff5c0.webp",
+            "is_vegan": 1,
+            "is_vegetarian": 1,
+            "name": "The Big Fat Greek Menu",
+            "status": 1,
+            "groups": {
+                "dishes_count": 16,
+                "selectable_dishes_count": 5,
+                "groups": {
+                    "ungrouped": 0,
+                    "Starter": 1,
+                    "Mains": 1,
+                    "Sides": 1,
+                    "Dessert": 1
+                }
+            },
+            "price_per_person": 52,
+            "min_spend": 225,
+            "is_seated": 1,
+            "is_standing": 1,
+            "is_canape": 0,
+            "is_mixed_dietary": 1,
+            "is_meal_prep": 0,
+            "is_halal": 1,
+            "is_kosher": 0,
+            "price_includes": null,
+            "highlight": null,
+            "available": true,
+            "number_of_orders": 13
+        },
+        {
+            "created_at": "2022-05-29T15:07:32.000000Z",
+            "cuisines": [
+                {
+                    "id": 22,
+                    "name": "Fine Dining"
+                }
+            ],
+            "description": "Intricately curates dishes, designed for an experience of the culinary symphony",
+            "display_text": 1,
+            "image": "https://d3gko8938onrvn.cloudfront.net/setmenus/images/ugy6aCX3A5HOk64pmsbyXYyAw9gfitXvo7reisVu.jpg",
+            "thumbnail": "https://d3gko8938onrvn.cloudfront.net/setmenus/thumbnails/646319707dd366413efcb4765e551e37.webp",
+            "is_vegan": 1,
+            "is_vegetarian": 1,
+            "name": "Fine Dinner",
+            "status": 1,
+            "groups": {
+                "dishes_count": 18,
+                "selectable_dishes_count": 3,
+                "groups": {
+                    "ungrouped": 0,
+                    "Starter": 1,
+                    "Main Dish": 1,
+                    "Dessert": 1
+                }
+            },
+            "price_per_person": 62,
+            "min_spend": 313,
+            "is_seated": 1,
+            "is_standing": 0,
+            "is_canape": 0,
+            "is_mixed_dietary": 0,
+            "is_meal_prep": 0,
+            "is_halal": 1,
+            "is_kosher": 0,
+            "price_includes": null,
+            "highlight": null,
+            "available": true,
+            "number_of_orders": 12
+        },
+        {
+            "created_at": "2022-04-07T18:31:54.000000Z",
+            "cuisines": [
+                {
+                    "id": 46,
+                    "name": "Modern European"
+                }
+            ],
+            "description": "a 3 Course with an option for Canapes for those wanting higher quality food, ideal for special occasions and as a treat",
+            "display_text": 1,
+            "image": "https://d3gko8938onrvn.cloudfront.net/setmenus/images/6cUF9mtfCUYRq3tiy23I0HVy4SljLASTnDzulOCy.jpg",
+            "thumbnail": "https://d3gko8938onrvn.cloudfront.net/setmenus/thumbnails/46c717755a2153efb10795e3118f71e2.webp",
+            "is_vegan": 1,
+            "is_vegetarian": 1,
+            "name": "Premium 4 course Fine Dine",
+            "status": 1,
+            "groups": {
+                "dishes_count": 19,
+                "selectable_dishes_count": 4,
+                "groups": {
+                    "ungrouped": 0,
+                    "Canape": 1,
+                    "Starter": 1,
+                    "Main Dish": 1,
+                    "Dessert": 1,
+                    "Add On": 1
+                }
+            },
+            "price_per_person": 62,
+            "min_spend": 250,
+            "is_seated": 1,
+            "is_standing": 0,
+            "is_canape": 0,
+            "is_mixed_dietary": 1,
+            "is_meal_prep": 0,
+            "is_halal": 1,
+            "is_kosher": 0,
+            "price_includes": null,
+            "highlight": null,
+            "available": true,
+            "number_of_orders": 12
+        },
+        {
+            "created_at": "2022-02-24T16:25:06.000000Z",
+            "cuisines": [
+                {
+                    "id": 33,
+                    "name": "Italian"
+                }
+            ],
+            "description": "An authentic italian feast, with homemade pasta made with a secret family recipe. Each dish is handcrafted to transport you to Italy",
+            "display_text": 1,
+            "image": "https://d3gko8938onrvn.cloudfront.net/setmenus/images/5PMITRMvnqRb7Ifk2GxN9WJDQ0d1X4ktERxMPjGc.jpg",
+            "thumbnail": "https://d3gko8938onrvn.cloudfront.net/setmenus/thumbnails/bf5635bbc3fa90c18200a9f92c045a81.webp",
+            "is_vegan": 1,
+            "is_vegetarian": 1,
+            "name": "A Touch of Modena",
+            "status": 1,
+            "groups": {
+                "dishes_count": 13,
+                "selectable_dishes_count": 4,
+                "groups": {
+                    "ungrouped": 0,
+                    "Antipasto": 1,
+                    "Primi": 1,
+                    "Secondi": 1,
+                    "Desserts": 1
+                }
+            },
+            "price_per_person": 43,
+            "min_spend": 313,
+            "is_seated": 1,
+            "is_standing": 1,
+            "is_canape": 0,
+            "is_mixed_dietary": 1,
+            "is_meal_prep": 0,
+            "is_halal": 1,
+            "is_kosher": 1,
+            "price_includes": null,
+            "highlight": null,
+            "available": true,
+            "number_of_orders": 12
+        },
+        {
+            "created_at": "2022-02-17T11:53:34.000000Z",
+            "cuisines": [
+                {
+                    "id": 91,
+                    "name": "British"
+                }
+            ],
+            "description": "A classic Roast suitable for all dietary requirements and served Restaurant style",
+            "display_text": 0,
+            "image": "https://d3gko8938onrvn.cloudfront.net/setmenus/images/5kb0G2gYNTqMkX4W2HCMgIOJYSxMD6qVVfOFe0LZ.jpg",
+            "thumbnail": "https://d3gko8938onrvn.cloudfront.net/setmenus/thumbnails/a1cfe414f6dd7674ae6669f92d0915c0.webp",
+            "is_vegan": 0,
+            "is_vegetarian": 1,
+            "name": "The Classic Roast Menu",
+            "status": 1,
+            "groups": {
+                "dishes_count": 17,
+                "selectable_dishes_count": 4,
+                "groups": {
+                    "ungrouped": 0,
+                    "Starter": 1,
+                    "Main Dish": 1,
+                    "Side Dish": 1,
+                    "Dessert": 1,
+                    "Add On": 1
+                }
+            },
+            "price_per_person": 37,
+            "min_spend": 225,
+            "is_seated": 1,
+            "is_standing": 0,
+            "is_canape": 0,
+            "is_mixed_dietary": 1,
+            "is_meal_prep": 0,
+            "is_halal": 1,
+            "is_kosher": 0,
+            "price_includes": null,
+            "highlight": null,
+            "available": true,
+            "number_of_orders": 12
+        },
+        {
+            "created_at": "2022-02-02T07:23:00.000000Z",
+            "cuisines": [
+                {
+                    "id": 81,
+                    "name": "African & Caribbean"
+                }
+            ],
+            "description": null,
+            "display_text": 0,
+            "image": "https://d3gko8938onrvn.cloudfront.net/setmenus/images/XKdzJNwC2sLnfefYfzuVJvPPnoB9Y6GJV4EKRKbK.jpg",
+            "thumbnail": "https://d3gko8938onrvn.cloudfront.net/setmenus/thumbnails/5e5eda8b1158613a1a47c1d66298a8b0.webp",
+            "is_vegan": 0,
+            "is_vegetarian": 0,
+            "name": "Taste of Jamaica",
+            "status": 1,
+            "groups": {
+                "dishes_count": 8,
+                "selectable_dishes_count": 4,
+                "groups": {
+                    "ungrouped": 0,
+                    "Starters": 1,
+                    "Mains": 1,
+                    "Sides": 1,
+                    "Dessert": 1
+                }
+            },
+            "price_per_person": 33,
+            "min_spend": 188,
+            "is_seated": 1,
+            "is_standing": 0,
+            "is_canape": 0,
+            "is_mixed_dietary": 0,
+            "is_meal_prep": 0,
+            "is_halal": 0,
+            "is_kosher": 0,
+            "price_includes": null,
+            "highlight": null,
+            "available": true,
+            "number_of_orders": 12
+        },
+        {
+            "created_at": "2022-07-29T13:33:03.000000Z",
+            "cuisines": [
+                {
+                    "id": 6,
+                    "name": "Brunch"
+                }
+            ],
+            "description": "Classics with a twist",
+            "display_text": 1,
+            "image": "https://d3gko8938onrvn.cloudfront.net/setmenus/images/EGVYfxB9I2AnogqEEwyYCDCTr5XN7Mo3obhoO2Cm.webp",
+            "thumbnail": "https://d3gko8938onrvn.cloudfront.net/setmenus/thumbnails/da0b67491cfe1c2a11290e0096f1d22b.webp",
+            "is_vegan": 1,
+            "is_vegetarian": 1,
+            "name": "Weekend Brunching",
+            "status": 1,
+            "groups": {
+                "dishes_count": 21,
+                "selectable_dishes_count": 4,
+                "groups": {
+                    "ungrouped": 0,
+                    "Main Dish": 1,
+                    "Dessert": 1
+                }
+            },
+            "price_per_person": 35,
+            "min_spend": 313,
+            "is_seated": 0,
+            "is_standing": 1,
+            "is_canape": 0,
+            "is_mixed_dietary": 1,
+            "is_meal_prep": 0,
+            "is_halal": 1,
+            "is_kosher": 0,
+            "price_includes": null,
+            "highlight": null,
+            "available": true,
+            "number_of_orders": 11
+        },
+        {
+            "created_at": "2022-03-25T17:45:08.000000Z",
+            "cuisines": [
+                {
+                    "id": 25,
+                    "name": "BBQ"
+                }
+            ],
+            "description": "Grilled flavored smoky goodness for summer gatherings",
+            "display_text": 0,
+            "image": "https://d3gko8938onrvn.cloudfront.net/setmenus/images/wEnbZBFTG6hSlN1J6lJMuc0eSvgRin6SewOI74ZJ.jpg",
+            "thumbnail": "https://d3gko8938onrvn.cloudfront.net/setmenus/thumbnails/e12a5b6d9018f1c007a6729d61ff1f8c.webp",
+            "is_vegan": 1,
+            "is_vegetarian": 1,
+            "name": "Korean Style BBQ",
+            "status": 1,
+            "groups": {
+                "dishes_count": 11,
+                "selectable_dishes_count": 5,
+                "groups": {
+                    "ungrouped": 0,
+                    "Main Dish": 1,
+                    "Side Dish": 1
+                }
+            },
+            "price_per_person": 37,
+            "min_spend": 313,
+            "is_seated": 0,
+            "is_standing": 0,
+            "is_canape": 0,
+            "is_mixed_dietary": 1,
+            "is_meal_prep": 0,
+            "is_halal": 1,
+            "is_kosher": 1,
+            "price_includes": null,
+            "highlight": null,
+            "available": true,
+            "number_of_orders": 11
+        },
+        {
+            "created_at": "2022-03-13T15:19:32.000000Z",
+            "cuisines": [
+                {
+                    "id": 39,
+                    "name": "Mexican"
+                }
+            ],
+            "description": "Traditional Mexican Cuisine",
+            "display_text": 1,
+            "image": "https://d3gko8938onrvn.cloudfront.net/setmenus/thumbnails/7x4SEo3PjjHB0ozvKJTtaDQeWVbb5t7Cxo40636E.jpg",
+            "thumbnail": "https://d3gko8938onrvn.cloudfront.net/setmenus/thumbnails/383b82034e016ea42863cd15f9438dfe.webp",
+            "is_vegan": 1,
+            "is_vegetarian": 1,
+            "name": "Mexican Bites",
+            "status": 1,
+            "groups": {
+                "dishes_count": 39,
+                "selectable_dishes_count": 5,
+                "groups": {
+                    "ungrouped": 0,
+                    "Starter": 1,
+                    "Side Dish": 1,
+                    "Main Dish": 1,
+                    "Dessert": 1
+                }
+            },
+            "price_per_person": 47,
+            "min_spend": 250,
+            "is_seated": 0,
+            "is_standing": 1,
+            "is_canape": 0,
+            "is_mixed_dietary": 1,
+            "is_meal_prep": 0,
+            "is_halal": 1,
+            "is_kosher": 1,
+            "price_includes": null,
+            "highlight": null,
+            "available": true,
+            "number_of_orders": 11
+        },
+        {
+            "created_at": "2022-03-09T17:33:34.000000Z",
+            "cuisines": [
+                {
+                    "id": 36,
+                    "name": "Canapé Party"
+                }
+            ],
+            "description": "Take a pick from Sanjay's scrumptious canapé style mexican dishes.",
+            "display_text": 1,
+            "image": "https://d3gko8938onrvn.cloudfront.net/setmenus/images/RPZD1jDnuPpW30EjgIy0zmEioFqNJArmfwFtLtoU.jpg",
+            "thumbnail": "https://d3gko8938onrvn.cloudfront.net/setmenus/thumbnails/0616de1c54246ea6e0fe7eac6dd87808.webp",
+            "is_vegan": 1,
+            "is_vegetarian": 1,
+            "name": "The Mexican Pick N Mix",
+            "status": 1,
+            "groups": {
+                "dishes_count": 19,
+                "selectable_dishes_count": 5,
+                "groups": {
+                    "ungrouped": 0,
+                    "Main Dish": 1
+                }
+            },
+            "price_per_person": 31,
+            "min_spend": 250,
+            "is_seated": 0,
+            "is_standing": 1,
+            "is_canape": 0,
+            "is_mixed_dietary": 1,
+            "is_meal_prep": 0,
+            "is_halal": 1,
+            "is_kosher": 1,
+            "price_includes": null,
+            "highlight": null,
+            "available": true,
+            "number_of_orders": 11
+        },
+        {
+            "created_at": "2022-02-20T04:40:55.000000Z",
+            "cuisines": [
+                {
+                    "id": 36,
+                    "name": "Canapé Party"
+                }
+            ],
+            "description": "Canapé party",
+            "display_text": 0,
+            "image": "https://d3gko8938onrvn.cloudfront.net/setmenus/images/m5gnmgLvlpq7QRgCoY0STUPfzDknWEiy1vr2T9Wo.jpg",
+            "thumbnail": "https://d3gko8938onrvn.cloudfront.net/setmenus/thumbnails/618b2720460ef0c30a8d06b8f11b9681.webp",
+            "is_vegan": 1,
+            "is_vegetarian": 1,
+            "name": "Grand Canapé Party",
+            "status": 1,
+            "groups": {
+                "dishes_count": 31,
+                "selectable_dishes_count": 6,
+                "groups": {
+                    "ungrouped": 0,
+                    "Finger Food": 1,
+                    "Bowl Food": 1,
+                    "Dessert": 1
+                }
+            },
+            "price_per_person": 33,
+            "min_spend": 250,
+            "is_seated": 0,
+            "is_standing": 0,
+            "is_canape": 1,
+            "is_mixed_dietary": 1,
+            "is_meal_prep": 0,
+            "is_halal": 0,
+            "is_kosher": 0,
+            "price_includes": null,
+            "highlight": null,
+            "available": true,
+            "number_of_orders": 11
+        },
+        {
+            "created_at": "2022-02-18T17:24:49.000000Z",
+            "cuisines": [
+                {
+                    "id": 36,
+                    "name": "Canapé Party"
+                }
+            ],
+            "description": "No matter the occasion, these selection of bite-sized finger food is sure to get the party started!",
+            "display_text": 0,
+            "image": "https://d3gko8938onrvn.cloudfront.net/setmenus/images/yBPOrSRi7lgxb3cZQEmIYmAxoSC5sXLStsk5bmp4.jpg",
+            "thumbnail": "https://d3gko8938onrvn.cloudfront.net/setmenus/thumbnails/10fa6f48aca99b0cbd16d1aeb552cd23.webp",
+            "is_vegan": 1,
+            "is_vegetarian": 1,
+            "name": "Finger Food Fiesta",
+            "status": 1,
+            "groups": {
+                "dishes_count": 19,
+                "selectable_dishes_count": 5,
+                "groups": {
+                    "ungrouped": 0,
+                    "Finger Food": 1,
+                    "Bowl Food": 1,
+                    "Dessert": 1
+                }
+            },
+            "price_per_person": 31,
+            "min_spend": 250,
+            "is_seated": 0,
+            "is_standing": 0,
+            "is_canape": 1,
+            "is_mixed_dietary": 1,
+            "is_meal_prep": 0,
+            "is_halal": 0,
+            "is_kosher": 0,
+            "price_includes": null,
+            "highlight": null,
+            "available": true,
+            "number_of_orders": 11
+        },
+        {
+            "created_at": "2022-05-03T05:30:09.000000Z",
+            "cuisines": [
+                {
+                    "id": 22,
+                    "name": "Fine Dining"
+                }
+            ],
+            "description": "A delicious seasonal menu, perfect for a special occasion dinner. Fine dining without the fuss.",
+            "display_text": 1,
+            "image": "https://d3gko8938onrvn.cloudfront.net/setmenus/images/sbLWbDgScw7v8hAHfuSPr0tfYa1uELlTwnzcnLq6.jpg",
+            "thumbnail": "https://d3gko8938onrvn.cloudfront.net/setmenus/thumbnails/ea4e866d28532ebbe22f2068e2b366f1.webp",
+            "is_vegan": 1,
+            "is_vegetarian": 1,
+            "name": "Signature Fine Dining",
+            "status": 1,
+            "groups": {
+                "dishes_count": 13,
+                "selectable_dishes_count": 3,
+                "groups": {
+                    "ungrouped": 0,
+                    "Canapés": 1,
+                    "First Course": 1,
+                    "Main Dish": 1,
+                    "Dessert": 1,
+                    "Finishing Touch": 1
+                }
+            },
+            "price_per_person": 75,
+            "min_spend": 300,
+            "is_seated": 1,
+            "is_standing": 0,
+            "is_canape": 1,
+            "is_mixed_dietary": 1,
+            "is_meal_prep": 0,
+            "is_halal": 1,
+            "is_kosher": 1,
+            "price_includes": null,
+            "highlight": "Fine three course meal, European flavours",
+            "available": true,
+            "number_of_orders": 10
+        },
+        {
+            "created_at": "2022-03-11T14:57:04.000000Z",
+            "cuisines": [
+                {
+                    "id": 39,
+                    "name": "Mexican"
+                }
+            ],
+            "description": "Marvellous Mexican and maybe a Margarita?",
+            "display_text": 1,
+            "image": "https://d3gko8938onrvn.cloudfront.net/setmenus/thumbnails/2UPuIHg7zJu2QFnK79ZPClJT1UEyZKAeTVO3Wmf5.jpg",
+            "thumbnail": "https://d3gko8938onrvn.cloudfront.net/setmenus/thumbnails/1bfebbd0564c3498242aeb72678e79f2.webp",
+            "is_vegan": 1,
+            "is_vegetarian": 1,
+            "name": "Buena Onda Menu",
+            "status": 1,
+            "groups": {
+                "dishes_count": 17,
+                "selectable_dishes_count": 5,
+                "groups": {
+                    "ungrouped": 0,
+                    "main dish": 1,
+                    "Side Dish": 1,
+                    "Dessert": 1,
+                    "starter": 1
+                }
+            },
+            "price_per_person": 25,
+            "min_spend": 188,
+            "is_seated": 1,
+            "is_standing": 0,
+            "is_canape": 0,
+            "is_mixed_dietary": 1,
+            "is_meal_prep": 0,
+            "is_halal": 1,
+            "is_kosher": 0,
+            "price_includes": null,
+            "highlight": null,
+            "available": true,
+            "number_of_orders": 10
+        },
+        {
+            "created_at": "2022-03-11T13:51:28.000000Z",
+            "cuisines": [
+                {
+                    "id": 25,
+                    "name": "BBQ"
+                }
+            ],
+            "description": "The full works with high quality produce",
+            "display_text": 1,
+            "image": "https://d3gko8938onrvn.cloudfront.net/setmenus/images/cr3KM7Z2dehOAM88hyiII9OhtgdLluTuoggbDcUi.jpg",
+            "thumbnail": "https://d3gko8938onrvn.cloudfront.net/setmenus/thumbnails/2107b6af1f1c374704073a0f5dbc50c7.webp",
+            "is_vegan": 0,
+            "is_vegetarian": 1,
+            "name": "BBQ 🍗",
+            "status": 1,
+            "groups": {
+                "dishes_count": 11,
+                "selectable_dishes_count": 1,
+                "groups": {
+                    "ungrouped": 0,
+                    "Add On": 1
+                }
+            },
+            "price_per_person": 81,
+            "min_spend": 438,
+            "is_seated": 1,
+            "is_standing": 0,
+            "is_canape": 0,
+            "is_mixed_dietary": 1,
+            "is_meal_prep": 0,
+            "is_halal": 1,
+            "is_kosher": 0,
+            "price_includes": null,
+            "highlight": null,
+            "available": true,
+            "number_of_orders": 10
+        },
+        {
+            "created_at": "2022-01-31T16:42:04.000000Z",
+            "cuisines": [
+                {
+                    "id": 22,
+                    "name": "Fine Dining"
+                }
+            ],
+            "description": "filler",
+            "display_text": 1,
+            "image": "https://d3gko8938onrvn.cloudfront.net/setmenus/images/cQRSV5futQg7Q0MxPL5RI5qrty09mLSH2aBHHVz5.jpg",
+            "thumbnail": "https://d3gko8938onrvn.cloudfront.net/setmenus/thumbnails/bb8994988b838f5b06baa78fa6918e0b.webp",
+            "is_vegan": 1,
+            "is_vegetarian": 1,
+            "name": "Christos's Prestige Fine Dining Menu",
+            "status": 1,
+            "groups": {
+                "dishes_count": 24,
+                "selectable_dishes_count": 3,
+                "groups": {
+                    "ungrouped": 0,
+                    "Starter": 1,
+                    "Main Course": 1,
+                    "dessert": 1,
+                    "Canape": 1
+                }
+            },
+            "price_per_person": 87,
+            "min_spend": 625,
+            "is_seated": 1,
+            "is_standing": 0,
+            "is_canape": 0,
+            "is_mixed_dietary": 1,
+            "is_meal_prep": 0,
+            "is_halal": 1,
+            "is_kosher": 0,
+            "price_includes": null,
+            "highlight": null,
+            "available": true,
+            "number_of_orders": 10
+        },
+        {
+            "created_at": "2022-10-20T17:37:47.000000Z",
+            "cuisines": [
+                {
+                    "id": 31,
+                    "name": "Christmas"
+                }
+            ],
+            "description": "Indulge in the ultimate Christmas feast with family and friends",
+            "display_text": 1,
+            "image": "https://d3gko8938onrvn.cloudfront.net/setmenus/images/exuVafJcDUer7gjf8tjENMAsMimV2JQgSzWh52nB.jpg",
+            "thumbnail": "https://d3gko8938onrvn.cloudfront.net/setmenus/thumbnails/c656abbccc2dbf91b4e3b4845feb12d1.webp",
+            "is_vegan": 1,
+            "is_vegetarian": 1,
+            "name": "The Big Christmas feast",
+            "status": 1,
+            "groups": {
+                "dishes_count": 13,
+                "selectable_dishes_count": 7,
+                "groups": {
+                    "ungrouped": 0,
+                    "Canape": 1,
+                    "Starter": 1,
+                    "Main Dish": 1,
+                    "Dessert": 1
+                }
+            },
+            "price_per_person": 52,
+            "min_spend": 375,
+            "is_seated": 1,
+            "is_standing": 1,
+            "is_canape": 0,
+            "is_mixed_dietary": 1,
+            "is_meal_prep": 0,
+            "is_halal": 0,
+            "is_kosher": 0,
+            "price_includes": null,
+            "highlight": null,
+            "available": true,
+            "number_of_orders": 9
+        },
+        {
+            "created_at": "2022-08-04T19:33:43.000000Z",
+            "cuisines": [
+                {
+                    "id": 33,
+                    "name": "Italian"
+                }
+            ],
+            "description": "An elegant take on some of my all time Italian favourites.",
+            "display_text": 1,
+            "image": "https://d3gko8938onrvn.cloudfront.net/setmenus/images/aiqSn08UUgHE6JeltRpajvWuErdTlSuXPZ8c5WbH.jpg",
+            "thumbnail": "https://d3gko8938onrvn.cloudfront.net/setmenus/thumbnails/37972341b4bd94ad0db0f3019bdf3346.webp",
+            "is_vegan": 1,
+            "is_vegetarian": 1,
+            "name": "Elegante Italiano",
+            "status": 1,
+            "groups": {
+                "dishes_count": 21,
+                "selectable_dishes_count": 3,
+                "groups": {
+                    "ungrouped": 0,
+                    "Starter": 1,
+                    "Main Dish": 1,
+                    "Dessert": 1
+                }
+            },
+            "price_per_person": 35,
+            "min_spend": 250,
+            "is_seated": 1,
+            "is_standing": 1,
+            "is_canape": 0,
+            "is_mixed_dietary": 1,
+            "is_meal_prep": 0,
+            "is_halal": 0,
+            "is_kosher": 0,
+            "price_includes": null,
+            "highlight": null,
+            "available": true,
+            "number_of_orders": 9
+        },
+        {
+            "created_at": "2022-08-02T18:20:06.000000Z",
+            "cuisines": [
+                {
+                    "id": 31,
+                    "name": "Christmas"
+                }
+            ],
+            "description": "A range of classic Christmas favourites that will satisfy everyone at the table, from the pickiest eater to the most sophisticated palate.",
+            "display_text": 1,
+            "image": "https://d3gko8938onrvn.cloudfront.net/setmenus/images/NFyrjiG4d8dobePkEVtMDWwaxQImB7hoQE45h0jq.jpg",
+            "thumbnail": "https://d3gko8938onrvn.cloudfront.net/setmenus/thumbnails/321aa581d154171906efa895f143e95a.webp",
+            "is_vegan": 1,
+            "is_vegetarian": 1,
+            "name": "Cristi's takeaway Christmas Menu",
+            "status": 1,
+            "groups": {
+                "dishes_count": 57,
+                "selectable_dishes_count": 8,
+                "groups": {
+                    "ungrouped": 0,
+                    "Starter": 1,
+                    "Main Dish": 1,
+                    "Side Dish": 1,
+                    "Dessert": 1
+                }
+            },
+            "price_per_person": 68,
+            "min_spend": 375,
+            "is_seated": 1,
+            "is_standing": 1,
+            "is_canape": 0,
+            "is_mixed_dietary": 1,
+            "is_meal_prep": 0,
+            "is_halal": 1,
+            "is_kosher": 1,
+            "price_includes": null,
+            "highlight": null,
+            "available": true,
+            "number_of_orders": 9
+        },
+        {
+            "created_at": "2022-03-21T13:38:22.000000Z",
+            "cuisines": [
+                {
+                    "id": 37,
+                    "name": "Middle Eastern"
+                }
+            ],
+            "description": "Dishes inspired from all over the middle east",
+            "display_text": 1,
+            "image": "https://d3gko8938onrvn.cloudfront.net/setmenus/images/Q0Mk5zXsebcQSAUNbdPznysiLUNIGZ11zjFdl5pa.jpg",
+            "thumbnail": "https://d3gko8938onrvn.cloudfront.net/setmenus/thumbnails/1120283251ad09304550074e72c4df5b.webp",
+            "is_vegan": 1,
+            "is_vegetarian": 1,
+            "name": "Middle Eastern Feast",
+            "status": 1,
+            "groups": {
+                "dishes_count": 25,
+                "selectable_dishes_count": 3,
+                "groups": {
+                    "ungrouped": 0,
+                    "Starter": 1,
+                    "Main Dish": 1,
+                    "Dessert": 1
+                }
+            },
+            "price_per_person": 41,
+            "min_spend": 313,
+            "is_seated": 1,
+            "is_standing": 1,
+            "is_canape": 0,
+            "is_mixed_dietary": 1,
+            "is_meal_prep": 0,
+            "is_halal": 1,
+            "is_kosher": 1,
+            "price_includes": null,
+            "highlight": null,
+            "available": true,
+            "number_of_orders": 9
+        },
+        {
+            "created_at": "2022-03-16T16:51:21.000000Z",
+            "cuisines": [
+                {
+                    "id": 46,
+                    "name": "Modern European"
+                }
+            ],
+            "description": "Extensive dinner options for a formal affair or a casual one",
+            "display_text": 1,
+            "image": "https://d3gko8938onrvn.cloudfront.net/setmenus/images/1YR1p3RPTmnWqJ5a1NYtomONzTpRxGmNIL0Wvdo3.jpg",
+            "thumbnail": "https://d3gko8938onrvn.cloudfront.net/setmenus/thumbnails/55c82539ffa43da4c557ccfb02910187.webp",
+            "is_vegan": 1,
+            "is_vegetarian": 1,
+            "name": "Dinner Banquet",
+            "status": 1,
+            "groups": {
+                "dishes_count": 18,
+                "selectable_dishes_count": 2,
+                "groups": {
+                    "ungrouped": 0,
+                    "Starter": 1,
+                    "Main Dish": 1,
+                    "Dessert": 1
+                }
+            },
+            "price_per_person": 35,
+            "min_spend": 188,
+            "is_seated": 1,
+            "is_standing": 1,
+            "is_canape": 0,
+            "is_mixed_dietary": 1,
+            "is_meal_prep": 0,
+            "is_halal": 1,
+            "is_kosher": 1,
+            "price_includes": null,
+            "highlight": null,
+            "available": true,
+            "number_of_orders": 9
+        },
+        {
+            "created_at": "2022-03-10T17:53:31.000000Z",
+            "cuisines": [
+                {
+                    "id": 46,
+                    "name": "Modern European"
+                }
+            ],
+            "description": "Authentic Greek Delight",
+            "display_text": 1,
+            "image": "https://d3gko8938onrvn.cloudfront.net/setmenus/thumbnails/SQyljNfdLugqEArfOQRqZdAd7p8lOCU3KpU0QZjn.jpg",
+            "thumbnail": "https://d3gko8938onrvn.cloudfront.net/setmenus/thumbnails/e877b62f82df26d5c795076e4b6d1be7.webp",
+            "is_vegan": 1,
+            "is_vegetarian": 1,
+            "name": "Greek Feast",
+            "status": 1,
+            "groups": {
+                "dishes_count": 9,
+                "selectable_dishes_count": 5,
+                "groups": {
+                    "ungrouped": 0,
+                    "Sharing Plates": 1,
+                    "Dessert": 1
+                }
+            },
+            "price_per_person": 42,
+            "min_spend": 188,
+            "is_seated": 0,
+            "is_standing": 1,
+            "is_canape": 0,
+            "is_mixed_dietary": 1,
+            "is_meal_prep": 0,
+            "is_halal": 1,
+            "is_kosher": 1,
+            "price_includes": null,
+            "highlight": null,
+            "available": true,
+            "number_of_orders": 9
+        },
+        {
+            "created_at": "2022-02-18T19:51:52.000000Z",
+            "cuisines": [
+                {
+                    "id": 39,
+                    "name": "Mexican"
+                }
+            ],
+            "description": null,
+            "display_text": 0,
+            "image": "https://d3gko8938onrvn.cloudfront.net/setmenus/images/RheWSOm7jXlZOyxbwWs1OCbLQ6UaGFSlj3BlRsgo.jpg",
+            "thumbnail": "https://d3gko8938onrvn.cloudfront.net/setmenus/thumbnails/d5e3831a4c22a42d71af61a6fa4ba4b4.webp",
+            "is_vegan": 1,
+            "is_vegetarian": 1,
+            "name": "The Taco Party Mexican To The Core",
+            "status": 1,
+            "groups": {
+                "dishes_count": 11,
+                "selectable_dishes_count": 6,
+                "groups": {
+                    "ungrouped": 0,
+                    "Sharing Plates": 1,
+                    "Sides": 1,
+                    "Dessert": 1
+                }
+            },
+            "price_per_person": 43,
+            "min_spend": 213,
+            "is_seated": 0,
+            "is_standing": 1,
+            "is_canape": 0,
+            "is_mixed_dietary": 1,
+            "is_meal_prep": 0,
+            "is_halal": 0,
+            "is_kosher": 0,
+            "price_includes": null,
+            "highlight": null,
+            "available": true,
+            "number_of_orders": 9
+        },
+        {
+            "created_at": "2022-05-29T15:34:58.000000Z",
+            "cuisines": [
+                {
+                    "id": 29,
+                    "name": "Pan Asian"
+                }
+            ],
+            "description": "The taste of South East Asia served in small plates",
+            "display_text": 1,
+            "image": "https://d3gko8938onrvn.cloudfront.net/setmenus/images/ZDzi59Lm8QKOB9jl5rMCfejnxXgsVp5O4SzEGFAv.jpg",
+            "thumbnail": "https://d3gko8938onrvn.cloudfront.net/setmenus/thumbnails/bb19948bb7888920324e96ab4d9ff804.webp",
+            "is_vegan": 1,
+            "is_vegetarian": 1,
+            "name": "Japanese-Thai Tapas Fusion",
+            "status": 1,
+            "groups": {
+                "dishes_count": 22,
+                "selectable_dishes_count": 8,
+                "groups": {
+                    "ungrouped": 0,
+                    "Main Dish": 1,
+                    "Dessert": 1,
+                    "Side Dish": 1
+                }
+            },
+            "price_per_person": 43,
+            "min_spend": 0,
+            "is_seated": 1,
+            "is_standing": 1,
+            "is_canape": 0,
+            "is_mixed_dietary": 1,
+            "is_meal_prep": 0,
+            "is_halal": 1,
+            "is_kosher": 0,
+            "price_includes": null,
+            "highlight": "Collection of East Asian dishes",
+            "available": true,
+            "number_of_orders": 8
+        },
+        {
+            "created_at": "2022-04-20T12:52:04.000000Z",
+            "cuisines": [
+                {
+                    "id": 38,
+                    "name": "Indian"
+                }
+            ],
+            "description": "A rich sharing spread, perfect for a family gathering,  with Indian inspired dishes. Vegetarian alternatives available, as per requirement.",
+            "display_text": 1,
+            "image": "https://d3gko8938onrvn.cloudfront.net/setmenus/images/x0GIReVlz09GdzjRbunbK6m7z1WgB3RRRU7dGFyz.jpg",
+            "thumbnail": "https://d3gko8938onrvn.cloudfront.net/setmenus/thumbnails/51e2240228955c51aa84a376fa0269d2.webp",
+            "is_vegan": 1,
+            "is_vegetarian": 1,
+            "name": "Modern Indian Fusion",
+            "status": 1,
+            "groups": {
+                "dishes_count": 30,
+                "selectable_dishes_count": 8,
+                "groups": {
+                    "ungrouped": 0,
+                    "Starter": 1,
+                    "Main Dish": 1,
+                    "Dessert": 1,
+                    "Side Dish": 1
+                }
+            },
+            "price_per_person": 37,
+            "min_spend": 563,
+            "is_seated": 0,
+            "is_standing": 1,
+            "is_canape": 0,
+            "is_mixed_dietary": 1,
+            "is_meal_prep": 0,
+            "is_halal": 1,
+            "is_kosher": 1,
+            "price_includes": null,
+            "highlight": null,
+            "available": true,
+            "number_of_orders": 8
+        },
+        {
+            "created_at": "2022-03-18T13:30:32.000000Z",
+            "cuisines": [
+                {
+                    "id": 22,
+                    "name": "Fine Dining"
+                }
+            ],
+            "description": "Spread for kings",
+            "display_text": 1,
+            "image": "https://d3gko8938onrvn.cloudfront.net/setmenus/thumbnails/O4J80fCf8SnjArmu3m28e217kEyyr78nK44thAXk.jpg",
+            "thumbnail": "https://d3gko8938onrvn.cloudfront.net/setmenus/thumbnails/7026f4c2aeb6eb963ea1cbd10294a543.webp",
+            "is_vegan": 1,
+            "is_vegetarian": 1,
+            "name": "European Banquet Feast",
+            "status": 1,
+            "groups": {
+                "dishes_count": 13,
+                "selectable_dishes_count": 3,
+                "groups": {
+                    "ungrouped": 0,
+                    "Starter": 1,
+                    "Main Dish": 1,
+                    "Dessert": 1,
+                    "Add On": 1
+                }
+            },
+            "price_per_person": 85,
+            "min_spend": 430,
+            "is_seated": 1,
+            "is_standing": 0,
+            "is_canape": 0,
+            "is_mixed_dietary": 1,
+            "is_meal_prep": 0,
+            "is_halal": 1,
+            "is_kosher": 1,
+            "price_includes": null,
+            "highlight": null,
+            "available": true,
+            "number_of_orders": 8
+        },
+        {
+            "created_at": "2022-03-11T17:54:22.000000Z",
+            "cuisines": [
+                {
+                    "id": 33,
+                    "name": "Italian"
+                }
+            ],
+            "description": "Bring the Osteria to the home with this delightful yet simple menu",
+            "display_text": 1,
+            "image": "https://d3gko8938onrvn.cloudfront.net/setmenus/thumbnails/HuVSCychXkfIdaE4Lb0tfcvMocEcua3wfbOXNVul.jpg",
+            "thumbnail": "https://d3gko8938onrvn.cloudfront.net/setmenus/thumbnails/846c4444abca402e6649e4c37969e4a8.webp",
+            "is_vegan": 1,
+            "is_vegetarian": 1,
+            "name": "Italian Osteria",
+            "status": 1,
+            "groups": {
+                "dishes_count": 13,
+                "selectable_dishes_count": 4,
+                "groups": {
+                    "ungrouped": 0,
+                    "Starter": 1,
+                    "Main Dish": 1,
+                    "Dessert": 1
+                }
+            },
+            "price_per_person": 37,
+            "min_spend": 375,
+            "is_seated": 1,
+            "is_standing": 1,
+            "is_canape": 0,
+            "is_mixed_dietary": 1,
+            "is_meal_prep": 0,
+            "is_halal": 1,
+            "is_kosher": 1,
+            "price_includes": null,
+            "highlight": null,
+            "available": true,
+            "number_of_orders": 8
+        },
+        {
+            "created_at": "2022-03-10T18:19:10.000000Z",
+            "cuisines": [
+                {
+                    "id": 80,
+                    "name": "French"
+                }
+            ],
+            "description": "Extensive menu of classic French dishes",
+            "display_text": 1,
+            "image": "https://d3gko8938onrvn.cloudfront.net/setmenus/thumbnails/YLcue6F6LGsEcPK3w1B819X2T7e1TEvCpD9hwMSQ.jpg",
+            "thumbnail": "https://d3gko8938onrvn.cloudfront.net/setmenus/thumbnails/9fb39018c9cba40c385f229165b39d7f.webp",
+            "is_vegan": 1,
+            "is_vegetarian": 1,
+            "name": "Bon Appétit",
+            "status": 1,
+            "groups": {
+                "dishes_count": 16,
+                "selectable_dishes_count": 5,
+                "groups": {
+                    "ungrouped": 0,
+                    "Starter": 1,
+                    "Main Dish": 1,
+                    "Dessert": 1
+                }
+            },
+            "price_per_person": 45,
+            "min_spend": 563,
+            "is_seated": 1,
+            "is_standing": 0,
+            "is_canape": 0,
+            "is_mixed_dietary": 1,
+            "is_meal_prep": 0,
+            "is_halal": 1,
+            "is_kosher": 1,
+            "price_includes": null,
+            "highlight": null,
+            "available": true,
+            "number_of_orders": 8
+        },
+        {
+            "created_at": "2022-03-09T16:50:04.000000Z",
+            "cuisines": [
+                {
+                    "id": 25,
+                    "name": "BBQ"
+                }
+            ],
+            "description": "Want to feel like summer? Marina's food will surely take you there!",
+            "display_text": 1,
+            "image": "https://d3gko8938onrvn.cloudfront.net/setmenus/images/jrwgOqRGaRwHKiX11KF1SobVRmFYve9bXmkiLE9A.jpg",
+            "thumbnail": "https://d3gko8938onrvn.cloudfront.net/setmenus/thumbnails/47ccf4722da9ad3a087885481f526fd0.webp",
+            "is_vegan": 1,
+            "is_vegetarian": 1,
+            "name": "BBQ Bonanza",
+            "status": 1,
+            "groups": {
+                "dishes_count": 16,
+                "selectable_dishes_count": 5,
+                "groups": {
+                    "ungrouped": 0,
+                    "Canapé": 1,
+                    "Main Dish": 1,
+                    "Side Dish": 1,
+                    "Dessert": 1
+                }
+            },
+            "price_per_person": 50,
+            "min_spend": 250,
+            "is_seated": 0,
+            "is_standing": 1,
+            "is_canape": 0,
+            "is_mixed_dietary": 1,
+            "is_meal_prep": 0,
+            "is_halal": 1,
+            "is_kosher": 1,
+            "price_includes": null,
+            "highlight": null,
+            "available": true,
+            "number_of_orders": 8
+        },
+        {
+            "created_at": "2022-02-25T11:26:17.000000Z",
+            "cuisines": [
+                {
+                    "id": 22,
+                    "name": "Fine Dining"
+                }
+            ],
+            "description": "A 4 course feast",
+            "display_text": 1,
+            "image": "https://d3gko8938onrvn.cloudfront.net/setmenus/images/Utx36hXvaEnEKH3FEXbEIkgKuobQqFPrSDfIUoKA.jpg",
+            "thumbnail": "https://d3gko8938onrvn.cloudfront.net/setmenus/thumbnails/1cfce78109a10e624db73008f384f618.webp",
+            "is_vegan": 1,
+            "is_vegetarian": 1,
+            "name": "4 course Selection",
+            "status": 1,
+            "groups": {
+                "dishes_count": 36,
+                "selectable_dishes_count": 4,
+                "groups": {
+                    "ungrouped": 0,
+                    "Canapes": 1,
+                    "Mains": 1,
+                    "Desserts": 1,
+                    "Side Dish": 1
+                }
+            },
+            "price_per_person": 50,
+            "min_spend": 313,
+            "is_seated": 1,
+            "is_standing": 1,
+            "is_canape": 0,
+            "is_mixed_dietary": 0,
+            "is_meal_prep": 0,
+            "is_halal": 1,
+            "is_kosher": 1,
+            "price_includes": null,
+            "highlight": null,
+            "available": true,
+            "number_of_orders": 8
+        },
+        {
+            "created_at": "2022-02-17T11:24:20.000000Z",
+            "cuisines": [
+                {
+                    "id": 29,
+                    "name": "Pan Asian"
+                }
+            ],
+            "description": "Traditional Japanese Favorites with my personal twist",
+            "display_text": 0,
+            "image": "https://d3gko8938onrvn.cloudfront.net/setmenus/images/Qoh6RO5s6HqkYlWSazy7xPLbA9KiT6oCB6l8FDy3.jpg",
+            "thumbnail": "https://d3gko8938onrvn.cloudfront.net/setmenus/thumbnails/dfe61a245f07b1b98426bcc9fbbf85fa.webp",
+            "is_vegan": 1,
+            "is_vegetarian": 1,
+            "name": "Favourites of Japan",
+            "status": 1,
+            "groups": {
+                "dishes_count": 26,
+                "selectable_dishes_count": 4,
+                "groups": {
+                    "ungrouped": 0,
+                    "To start": 1,
+                    "Mains": 1,
+                    "Side Dish": 1,
+                    "Dessert": 1,
+                    "Add On": 1
+                }
+            },
+            "price_per_person": 37,
+            "min_spend": 250,
+            "is_seated": 1,
+            "is_standing": 0,
+            "is_canape": 0,
+            "is_mixed_dietary": 0,
+            "is_meal_prep": 0,
+            "is_halal": 0,
+            "is_kosher": 0,
+            "price_includes": null,
+            "highlight": null,
+            "available": true,
+            "number_of_orders": 8
+        },
+        {
+            "created_at": "2022-07-25T13:24:08.000000Z",
+            "cuisines": [
+                {
+                    "id": 33,
+                    "name": "Italian"
+                }
+            ],
+            "description": "A selection of classic",
+            "display_text": 1,
+            "image": "https://d3gko8938onrvn.cloudfront.net/setmenus/images/KSYzWyAQnTvFrVFh26717MzzrVsLg5QTr7wxMn61.jpg",
+            "thumbnail": "https://d3gko8938onrvn.cloudfront.net/setmenus/thumbnails/f24e93d27c2e9944cf805e98cd92fcc6.webp",
+            "is_vegan": 1,
+            "is_vegetarian": 1,
+            "name": "Italian Extravaganza",
+            "status": 1,
+            "groups": {
+                "dishes_count": 20,
+                "selectable_dishes_count": 4,
+                "groups": {
+                    "ungrouped": 0,
+                    "Starter": 1,
+                    "Main Dish": 1,
+                    "Dessert": 1,
+                    "Side Dish": 1
+                }
+            },
+            "price_per_person": 52,
+            "min_spend": 375,
+            "is_seated": 1,
+            "is_standing": 0,
+            "is_canape": 0,
+            "is_mixed_dietary": 0,
+            "is_meal_prep": 0,
+            "is_halal": 1,
+            "is_kosher": 1,
+            "price_includes": null,
+            "highlight": null,
+            "available": true,
+            "number_of_orders": 7
+        },
+        {
+            "created_at": "2022-05-25T09:55:06.000000Z",
+            "cuisines": [
+                {
+                    "id": 33,
+                    "name": "Italian"
+                }
+            ],
+            "description": "Authentically Italian and mouth-wateringly delicious dishes for you and your guests. Crack open your favourite Italian wines, Prosecco, Chianti, Barolo... crank up the music and make memories",
+            "display_text": 1,
+            "image": "https://d3gko8938onrvn.cloudfront.net/setmenus/images/r7XTJkeDsCdUcjg1txVS7Wn1RQvb41Af2WFKCWjC.png",
+            "thumbnail": "https://d3gko8938onrvn.cloudfront.net/setmenus/thumbnails/20ed8e18cfd1c51f36f92d524a9a315e.webp",
+            "is_vegan": 1,
+            "is_vegetarian": 1,
+            "name": "Everybody Loves Italian",
+            "status": 1,
+            "groups": {
+                "dishes_count": 22,
+                "selectable_dishes_count": 4,
+                "groups": {
+                    "ungrouped": 0,
+                    "Starter": 1,
+                    "Main Dish": 1,
+                    "Side Dish": 1,
+                    "Dessert": 1
+                }
+            },
+            "price_per_person": 50,
+            "min_spend": 500,
+            "is_seated": 1,
+            "is_standing": 1,
+            "is_canape": 0,
+            "is_mixed_dietary": 0,
+            "is_meal_prep": 0,
+            "is_halal": 0,
+            "is_kosher": 0,
+            "price_includes": null,
+            "highlight": "Aunthentic Italian Crowd Pleasers",
+            "available": true,
+            "number_of_orders": 7
+        },
+        {
+            "created_at": "2022-04-20T15:56:35.000000Z",
+            "cuisines": [
+                {
+                    "id": 37,
+                    "name": "Middle Eastern"
+                }
+            ],
+            "description": "Popular traditional North African and  Middle Eastern dishes, aromatic and flavourful, perfect for large sharing feasts",
+            "display_text": 1,
+            "image": "https://d3gko8938onrvn.cloudfront.net/setmenus/images/pAQ2Z4gQ89kwCISCOrLMzKeCSDsv5SlUW2MpvxNm.jpg",
+            "thumbnail": "https://d3gko8938onrvn.cloudfront.net/setmenus/thumbnails/af657b5acb7bbb03cc6ce2dea3548497.webp",
+            "is_vegan": 1,
+            "is_vegetarian": 1,
+            "name": "Fusion feast from the Middle East",
+            "status": 1,
+            "groups": {
+                "dishes_count": 26,
+                "selectable_dishes_count": 4,
+                "groups": {
+                    "ungrouped": 0,
+                    "Starter": 1,
+                    "Main Dish": 1,
+                    "Dessert": 1
+                }
+            },
+            "price_per_person": 41,
+            "min_spend": 563,
+            "is_seated": 0,
+            "is_standing": 1,
+            "is_canape": 0,
+            "is_mixed_dietary": 1,
+            "is_meal_prep": 0,
+            "is_halal": 1,
+            "is_kosher": 0,
+            "price_includes": null,
+            "highlight": null,
+            "available": true,
+            "number_of_orders": 7
+        },
+        {
+            "created_at": "2022-03-20T13:44:00.000000Z",
+            "cuisines": [
+                {
+                    "id": 37,
+                    "name": "Middle Eastern"
+                }
+            ],
+            "description": "Best Middle Eastern Dishes!",
+            "display_text": 0,
+            "image": "https://d3gko8938onrvn.cloudfront.net/setmenus/thumbnails/YZbR4hVuAYQZ5nVhDQCzlCKKUN4IZMsYTOmrhb8W.jpg",
+            "thumbnail": "https://d3gko8938onrvn.cloudfront.net/setmenus/thumbnails/e841eea30576d19755c5ea2e44a3429e.webp",
+            "is_vegan": 1,
+            "is_vegetarian": 1,
+            "name": "A Middle Eastern Culinary Experience",
+            "status": 1,
+            "groups": {
+                "dishes_count": 18,
+                "selectable_dishes_count": 5,
+                "groups": {
+                    "ungrouped": 0,
+                    "Starter": 1,
+                    "Main Dish": 1,
+                    "Side Dish": 1,
+                    "Dessert": 1
+                }
+            },
+            "price_per_person": 37,
+            "min_spend": 188,
+            "is_seated": 1,
+            "is_standing": 1,
+            "is_canape": 0,
+            "is_mixed_dietary": 1,
+            "is_meal_prep": 0,
+            "is_halal": 1,
+            "is_kosher": 0,
+            "price_includes": null,
+            "highlight": null,
+            "available": true,
+            "number_of_orders": 7
+        },
+        {
+            "created_at": "2022-03-14T11:24:49.000000Z",
+            "cuisines": [
+                {
+                    "id": 29,
+                    "name": "Pan Asian"
+                }
+            ],
+            "description": "Suitable with Vegan/Vegetarian & Pescatarian options",
+            "display_text": 0,
+            "image": "https://d3gko8938onrvn.cloudfront.net/setmenus/thumbnails/SxdNLqDPKY2pLjkOuAbpt1JIoAUpVgtzRVcW77tS.jpg",
+            "thumbnail": "https://d3gko8938onrvn.cloudfront.net/setmenus/thumbnails/e248e7bfbbf41d3ea035f3cee6961866.webp",
+            "is_vegan": 1,
+            "is_vegetarian": 1,
+            "name": "Bright & Colorful Thai Fusion",
+            "status": 1,
+            "groups": {
+                "dishes_count": 25,
+                "selectable_dishes_count": 3,
+                "groups": {
+                    "ungrouped": 0,
+                    "Starter": 1,
+                    "Main Dish": 1,
+                    "Side Dish": 1,
+                    "Dessert": 1,
+                    "Add On": 1
+                }
+            },
+            "price_per_person": 37,
+            "min_spend": 250,
+            "is_seated": 1,
+            "is_standing": 1,
+            "is_canape": 0,
+            "is_mixed_dietary": 1,
+            "is_meal_prep": 0,
+            "is_halal": 1,
+            "is_kosher": 0,
+            "price_includes": null,
+            "highlight": null,
+            "available": true,
+            "number_of_orders": 7
+        },
+        {
+            "created_at": "2022-03-12T00:12:59.000000Z",
+            "cuisines": [
+                {
+                    "id": 39,
+                    "name": "Mexican"
+                }
+            ],
+            "description": "Mark's Magical Mexican Feast",
+            "display_text": 1,
+            "image": "https://d3gko8938onrvn.cloudfront.net/setmenus/thumbnails/fXglJUDneE0W5IyyoHa8ZnlzpMcLhvkf6dTYNTj2.png",
+            "thumbnail": "https://d3gko8938onrvn.cloudfront.net/setmenus/thumbnails/74b89df7a6381b9d6131f495fe52132e.webp",
+            "is_vegan": 1,
+            "is_vegetarian": 1,
+            "name": "El Boss Taco",
+            "status": 1,
+            "groups": {
+                "dishes_count": 52,
+                "selectable_dishes_count": 5,
+                "groups": {
+                    "ungrouped": 0,
+                    "Starter": 1,
+                    "Main Dish": 1,
+                    "Side Dish": 1,
+                    "Drinks": 1,
+                    "Dessert": 1
+                }
+            },
+            "price_per_person": 62,
+            "min_spend": 313,
+            "is_seated": 1,
+            "is_standing": 1,
+            "is_canape": 0,
+            "is_mixed_dietary": 1,
+            "is_meal_prep": 0,
+            "is_halal": 1,
+            "is_kosher": 1,
+            "price_includes": null,
+            "highlight": null,
+            "available": true,
+            "number_of_orders": 7
+        },
+        {
+            "created_at": "2022-03-10T17:37:23.000000Z",
+            "cuisines": [
+                {
+                    "id": 33,
+                    "name": "Italian"
+                }
+            ],
+            "description": "Spoil yourself with a decedent Italian experience",
+            "display_text": 1,
+            "image": "https://d3gko8938onrvn.cloudfront.net/setmenus/images/k3r2tlyoElPGIoX3pNqry1ibCudW62jwuqhBdURR.jpg",
+            "thumbnail": "https://d3gko8938onrvn.cloudfront.net/setmenus/thumbnails/dc902b4f8adbe88a495ac4c6e6b9fa71.webp",
+            "is_vegan": 1,
+            "is_vegetarian": 1,
+            "name": "A night in Italy",
+            "status": 1,
+            "groups": {
+                "dishes_count": 23,
+                "selectable_dishes_count": 5,
+                "groups": {
+                    "ungrouped": 0,
+                    "Starter": 1,
+                    "Main Dish": 1,
+                    "Dessert": 1
+                }
+            },
+            "price_per_person": 48,
+            "min_spend": 500,
+            "is_seated": 1,
+            "is_standing": 1,
+            "is_canape": 0,
+            "is_mixed_dietary": 1,
+            "is_meal_prep": 0,
+            "is_halal": 1,
+            "is_kosher": 1,
+            "price_includes": null,
+            "highlight": null,
+            "available": true,
+            "number_of_orders": 7
+        },
+        {
+            "created_at": "2022-03-09T14:28:39.000000Z",
+            "cuisines": [
+                {
+                    "id": 81,
+                    "name": "African & Caribbean"
+                }
+            ],
+            "description": "This menu is the ultimate traditional English/Caribbean Experience that will leave your tastebuds wanting for more.",
+            "display_text": 0,
+            "image": "https://d3gko8938onrvn.cloudfront.net/setmenus/images/6iAcgu0kVqGBqpDm6J3lUg8fOdRnNDn6aW4NeEo3.jpg",
+            "thumbnail": "https://d3gko8938onrvn.cloudfront.net/setmenus/thumbnails/cc92979d303eada90f1cf15c18f537f6.webp",
+            "is_vegan": 1,
+            "is_vegetarian": 1,
+            "name": "One Love Caribbean Delight",
+            "status": 1,
+            "groups": {
+                "dishes_count": 22,
+                "selectable_dishes_count": 5,
+                "groups": {
+                    "ungrouped": 0,
+                    "Main Dish": 1,
+                    "Side Dish": 1,
+                    "Dessert": 1,
+                    "Add On": 1,
+                    "Starter": 1
+                }
+            },
+            "price_per_person": 37,
+            "min_spend": 250,
+            "is_seated": 0,
+            "is_standing": 1,
+            "is_canape": 0,
+            "is_mixed_dietary": 1,
+            "is_meal_prep": 0,
+            "is_halal": 1,
+            "is_kosher": 1,
+            "price_includes": null,
+            "highlight": null,
+            "available": true,
+            "number_of_orders": 7
+        },
+        {
+            "created_at": "2022-02-21T11:33:12.000000Z",
+            "cuisines": [
+                {
+                    "id": 22,
+                    "name": "Fine Dining"
+                }
+            ],
+            "description": null,
+            "display_text": 0,
+            "image": "https://d3gko8938onrvn.cloudfront.net/setmenus/images/s0EoBMH4mKGbbCyX8Mr64LhuuLMY41AAOvq6Bnct.jpg",
+            "thumbnail": "https://d3gko8938onrvn.cloudfront.net/setmenus/thumbnails/5aab514317dac9a0798a4b49f2481758.webp",
+            "is_vegan": 1,
+            "is_vegetarian": 1,
+            "name": "Lukasz's Exclusive",
+            "status": 1,
+            "groups": {
+                "dishes_count": 8,
+                "selectable_dishes_count": 3,
+                "groups": {
+                    "ungrouped": 0,
+                    "Starter": 1,
+                    "Mains": 1,
+                    "Dessert": 1
+                }
+            },
+            "price_per_person": 70,
+            "min_spend": 200,
+            "is_seated": 1,
+            "is_standing": 0,
+            "is_canape": 0,
+            "is_mixed_dietary": 1,
+            "is_meal_prep": 0,
+            "is_halal": 1,
+            "is_kosher": 1,
+            "price_includes": null,
+            "highlight": null,
+            "available": true,
+            "number_of_orders": 7
+        },
+        {
+            "created_at": "2022-02-19T13:46:24.000000Z",
+            "cuisines": [
+                {
+                    "id": 46,
+                    "name": "Modern European"
+                }
+            ],
+            "description": "null",
+            "display_text": 0,
+            "image": "https://d3gko8938onrvn.cloudfront.net/setmenus/images/6fDcPUgxjq70m2pJNN5eQso9KH2NLN7XTlZp2clk.png",
+            "thumbnail": "https://d3gko8938onrvn.cloudfront.net/setmenus/thumbnails/4dd66f44285465d9ffaefb2004a08785.webp",
+            "is_vegan": 0,
+            "is_vegetarian": 0,
+            "name": "Delectable Eurozone",
+            "status": 1,
+            "groups": {
+                "dishes_count": 13,
+                "selectable_dishes_count": 7,
+                "groups": {
+                    "ungrouped": 0,
+                    "To Start": 1,
+                    "Sides": 1,
+                    "Mains": 1,
+                    "Desserts": 1
+                }
+            },
+            "price_per_person": 70,
+            "min_spend": 188,
+            "is_seated": 1,
+            "is_standing": 1,
+            "is_canape": 0,
+            "is_mixed_dietary": 0,
+            "is_meal_prep": 0,
+            "is_halal": 0,
+            "is_kosher": 0,
+            "price_includes": null,
+            "highlight": null,
+            "available": true,
+            "number_of_orders": 7
+        },
+        {
+            "created_at": "2022-02-18T16:23:27.000000Z",
+            "cuisines": [
+                {
+                    "id": 39,
+                    "name": "Mexican"
+                }
+            ],
+            "description": null,
+            "display_text": 0,
+            "image": "https://d3gko8938onrvn.cloudfront.net/setmenus/images/WqRl6cBqE60uuX79e5XgXugNglWzbnAO9HIrIlMA.jpg",
+            "thumbnail": "https://d3gko8938onrvn.cloudfront.net/setmenus/thumbnails/09f8725fb5989d5962e5ea766ef56e62.webp",
+            "is_vegan": 1,
+            "is_vegetarian": 1,
+            "name": "Mexican Sharing Menu",
+            "status": 1,
+            "groups": {
+                "dishes_count": 19,
+                "selectable_dishes_count": 6,
+                "groups": {
+                    "ungrouped": 0,
+                    "To Start": 1,
+                    "Sides": 1,
+                    "Mains": 1,
+                    "Appetizers": 1,
+                    "Desserts": 1
+                }
+            },
+            "price_per_person": 46,
+            "min_spend": 250,
+            "is_seated": 1,
+            "is_standing": 1,
+            "is_canape": 0,
+            "is_mixed_dietary": 1,
+            "is_meal_prep": 0,
+            "is_halal": 0,
+            "is_kosher": 0,
+            "price_includes": null,
+            "highlight": null,
+            "available": true,
+            "number_of_orders": 7
+        },
+        {
+            "created_at": "2022-05-10T08:41:26.000000Z",
+            "cuisines": [
+                {
+                    "id": 46,
+                    "name": "Modern European"
+                }
+            ],
+            "description": "I have eaten Greek food all my life. My father was a fantastic chef who taught us all\r\nabout food, quality and eating ethically grown produce. Cooking Greek comes naturally\r\nto me. For me, Greek food is the best in the world. Not just because they use fresh\r\nvegetables and local meat and fish and because they don't over-power with spices, but\r\nbecause it comes with the whole package of wine, ouzo and conversation that can go all\r\nafternoon or all night long. As anyone who has visited Greece will tell you, eating and\r\ndrinking is a way of life whether you are having lunch on a beach or dinner at a\r\ntaverna. I am bringing this to you, hearty food using first class quality seasonal\r\nproduce, from farms across the UK, to produce the tastiest Greek Menu.",
+            "display_text": 0,
+            "image": "https://d3gko8938onrvn.cloudfront.net/setmenus/images/XbheSbgAgREbt3jv8FJWZz6cg7llc8hOuPX6Q03U.png",
+            "thumbnail": "https://d3gko8938onrvn.cloudfront.net/setmenus/thumbnails/650dcebe2df797d8b5fe3c6931d63d6d.webp",
+            "is_vegan": 1,
+            "is_vegetarian": 1,
+            "name": "Taste of Greece",
+            "status": 1,
+            "groups": {
+                "dishes_count": 17,
+                "selectable_dishes_count": 5,
+                "groups": {
+                    "ungrouped": 0,
+                    "Starter": 1,
+                    "Main Dish": 1,
+                    "Dessert": 1
+                }
+            },
+            "price_per_person": 37,
+            "min_spend": 188,
+            "is_seated": 1,
+            "is_standing": 1,
+            "is_canape": 0,
+            "is_mixed_dietary": 1,
+            "is_meal_prep": 0,
+            "is_halal": 1,
+            "is_kosher": 1,
+            "price_includes": null,
+            "highlight": null,
+            "available": true,
+            "number_of_orders": 6
+        },
+        {
+            "created_at": "2022-04-10T14:47:03.000000Z",
+            "cuisines": [
+                {
+                    "id": 36,
+                    "name": "Canapé Party"
+                }
+            ],
+            "description": null,
+            "display_text": 1,
+            "image": "https://d3gko8938onrvn.cloudfront.net/setmenus/images/gxKVEDqgLj0uKJHBPHT4hQonTS0vFaPboevHb1xY.jpg",
+            "thumbnail": "https://d3gko8938onrvn.cloudfront.net/setmenus/thumbnails/9351a01733c186042d9697591a1e1311.webp",
+            "is_vegan": 0,
+            "is_vegetarian": 0,
+            "name": "Nothing's Better than Canapes at Brunch",
+            "status": 1,
+            "groups": {
+                "dishes_count": 19,
+                "selectable_dishes_count": 6,
+                "groups": {
+                    "ungrouped": 0,
+                    "Juice": 1,
+                    "Starter": 1
+                }
+            },
+            "price_per_person": 31,
+            "min_spend": 188,
+            "is_seated": 0,
+            "is_standing": 0,
+            "is_canape": 1,
+            "is_mixed_dietary": 0,
+            "is_meal_prep": 0,
+            "is_halal": 0,
+            "is_kosher": 0,
+            "price_includes": null,
+            "highlight": null,
+            "available": true,
+            "number_of_orders": 6
+        },
+        {
+            "created_at": "2022-03-01T17:14:17.000000Z",
+            "cuisines": [
+                {
+                    "id": 80,
+                    "name": "French"
+                }
+            ],
+            "description": "Specialities from France",
+            "display_text": 1,
+            "image": "https://d3gko8938onrvn.cloudfront.net/setmenus/images/g5Y2aFcb5fus4rkgZ7Sp4L4nCPCIwdSNyXfv49eq.jpg",
+            "thumbnail": "https://d3gko8938onrvn.cloudfront.net/setmenus/thumbnails/bfd200776c9ee2f5cd2e22b82e71bd0c.webp",
+            "is_vegan": 1,
+            "is_vegetarian": 1,
+            "name": "Classic French Menu",
+            "status": 1,
+            "groups": {
+                "dishes_count": 10,
+                "selectable_dishes_count": 4,
+                "groups": {
+                    "ungrouped": 0,
+                    "Starters": 1,
+                    "Main Dish": 1,
+                    "Dessert": 1
+                }
+            },
+            "price_per_person": 53,
+            "min_spend": 250,
+            "is_seated": 1,
+            "is_standing": 0,
+            "is_canape": 0,
+            "is_mixed_dietary": 1,
+            "is_meal_prep": 0,
+            "is_halal": 1,
+            "is_kosher": 0,
+            "price_includes": null,
+            "highlight": null,
+            "available": true,
+            "number_of_orders": 6
+        },
+        {
+            "created_at": "2022-02-21T12:47:43.000000Z",
+            "cuisines": [
+                {
+                    "id": 22,
+                    "name": "Fine Dining"
+                }
+            ],
+            "description": null,
+            "display_text": 1,
+            "image": "https://d3gko8938onrvn.cloudfront.net/setmenus/images/tzo88Erwa5fCHZCyiXDkobjctmzRrCaOGWxr2CiW.jpg",
+            "thumbnail": "https://d3gko8938onrvn.cloudfront.net/setmenus/thumbnails/8c78a0a73f357a21c244510f1246ff7f.webp",
+            "is_vegan": 1,
+            "is_vegetarian": 1,
+            "name": "Philippe's Delicious",
+            "status": 1,
+            "groups": {
+                "dishes_count": 4,
+                "selectable_dishes_count": 4,
+                "groups": {
+                    "ungrouped": 0,
+                    "Canapé": 1,
+                    "To Start": 1,
+                    "Mains": 1,
+                    "To Finish": 1
+                }
+            },
+            "price_per_person": 81,
+            "min_spend": 250,
+            "is_seated": 1,
+            "is_standing": 0,
+            "is_canape": 0,
+            "is_mixed_dietary": 1,
+            "is_meal_prep": 0,
+            "is_halal": 0,
+            "is_kosher": 0,
+            "price_includes": null,
+            "highlight": null,
+            "available": true,
+            "number_of_orders": 6
+        },
+        {
+            "created_at": "2022-02-20T05:19:48.000000Z",
+            "cuisines": [
+                {
+                    "id": 46,
+                    "name": "Modern European"
+                }
+            ],
+            "description": null,
+            "display_text": 0,
+            "image": "https://d3gko8938onrvn.cloudfront.net/setmenus/images/lQTiCxiKVgKOegRETrbOCK6sCZETahMTdys8EIqa.png",
+            "thumbnail": "https://d3gko8938onrvn.cloudfront.net/setmenus/thumbnails/c43cff7c9289ef5fb38496610da01240.webp",
+            "is_vegan": 0,
+            "is_vegetarian": 0,
+            "name": "European Delight",
+            "status": 1,
+            "groups": {
+                "dishes_count": 12,
+                "selectable_dishes_count": 7,
+                "groups": {
+                    "ungrouped": 0,
+                    "Starter": 1,
+                    "Sides": 1,
+                    "Main": 1,
+                    "Dessert": 1
+                }
+            },
+            "price_per_person": 61,
+            "min_spend": 188,
+            "is_seated": 1,
+            "is_standing": 1,
+            "is_canape": 0,
+            "is_mixed_dietary": 0,
+            "is_meal_prep": 0,
+            "is_halal": 0,
+            "is_kosher": 0,
+            "price_includes": null,
+            "highlight": null,
+            "available": true,
+            "number_of_orders": 6
+        },
+        {
+            "created_at": "2022-02-19T13:26:58.000000Z",
+            "cuisines": [
+                {
+                    "id": 33,
+                    "name": "Italian"
+                }
+            ],
+            "description": null,
+            "display_text": 1,
+            "image": "https://d3gko8938onrvn.cloudfront.net/setmenus/images/DamwpgAk3dB9nug4TBYk3fs38rPbCbi4jlpkHLYN.jpg",
+            "thumbnail": "https://d3gko8938onrvn.cloudfront.net/setmenus/thumbnails/8623d50e1126e48211ed822c90910d2e.webp",
+            "is_vegan": 0,
+            "is_vegetarian": 0,
+            "name": "Very Italiano",
+            "status": 1,
+            "groups": {
+                "dishes_count": 9,
+                "selectable_dishes_count": 3,
+                "groups": {
+                    "ungrouped": 0,
+                    "starter": 1,
+                    "dessert": 1,
+                    "Mains": 1
+                }
+            },
+            "price_per_person": 31,
+            "min_spend": 188,
+            "is_seated": 1,
+            "is_standing": 0,
+            "is_canape": 0,
+            "is_mixed_dietary": 0,
+            "is_meal_prep": 0,
+            "is_halal": 0,
+            "is_kosher": 0,
+            "price_includes": null,
+            "highlight": null,
+            "available": true,
+            "number_of_orders": 6
+        },
+        {
+            "created_at": "2022-02-18T18:23:39.000000Z",
+            "cuisines": [
+                {
+                    "id": 6,
+                    "name": "Brunch"
+                }
+            ],
+            "description": "Brunch designed to indulge in, Suitable for all Dietary needs",
+            "display_text": 0,
+            "image": "https://d3gko8938onrvn.cloudfront.net/setmenus/images/qzO1MeTy0kfWM4ho4MxoBfLj2OGaMoTC3GPbzMW7.png",
+            "thumbnail": "https://d3gko8938onrvn.cloudfront.net/setmenus/thumbnails/a0f492407698eef7dade9a72d2223596.webp",
+            "is_vegan": 1,
+            "is_vegetarian": 1,
+            "name": "A Beautiful Brunch",
+            "status": 1,
+            "groups": {
+                "dishes_count": 17,
+                "selectable_dishes_count": 5,
+                "groups": {
+                    "ungrouped": 0,
+                    "Main Dish": 1,
+                    "Dessert": 1
+                }
+            },
+            "price_per_person": 37,
+            "min_spend": 188,
+            "is_seated": 1,
+            "is_standing": 1,
+            "is_canape": 0,
+            "is_mixed_dietary": 1,
+            "is_meal_prep": 0,
+            "is_halal": 1,
+            "is_kosher": 0,
+            "price_includes": null,
+            "highlight": null,
+            "available": true,
+            "number_of_orders": 6
+        },
+        {
+            "created_at": "2022-02-18T12:14:34.000000Z",
+            "cuisines": [
+                {
+                    "id": 29,
+                    "name": "Pan Asian"
+                }
+            ],
+            "description": null,
+            "display_text": 0,
+            "image": "https://d3gko8938onrvn.cloudfront.net/setmenus/images/KUpQ5Ntjz5fix2oakgNFIqqEdkgMK1wyuhqqAqR5.jpg",
+            "thumbnail": "https://d3gko8938onrvn.cloudfront.net/setmenus/thumbnails/87a9d519a26041ba521bf151d7b107ad.webp",
+            "is_vegan": 1,
+            "is_vegetarian": 1,
+            "name": "Zanine's Asian Zen",
+            "status": 1,
+            "groups": {
+                "dishes_count": 16,
+                "selectable_dishes_count": 7,
+                "groups": {
+                    "ungrouped": 0,
+                    "To Start": 1,
+                    "Side": 1,
+                    "Mains": 1,
+                    "Dessert": 1
+                }
+            },
+            "price_per_person": 56,
+            "min_spend": 188,
+            "is_seated": 1,
+            "is_standing": 1,
+            "is_canape": 0,
+            "is_mixed_dietary": 1,
+            "is_meal_prep": 0,
+            "is_halal": 0,
+            "is_kosher": 0,
+            "price_includes": null,
+            "highlight": null,
+            "available": true,
+            "number_of_orders": 6
+        },
+        {
+            "created_at": "2022-02-11T15:19:40.000000Z",
+            "cuisines": [
+                {
+                    "id": 29,
+                    "name": "Pan Asian"
+                }
+            ],
+            "description": "Assortment of dishes taking you on a culinary tour of East Asia in your own home.\r\n\r\nThe Chef would like for each guest to have a 'bespoke' menu. When booking this menu please choose: 3 Appetizers, 3 Mains and 2 Desserts. Each one of your guests has the ability to choose one of your chosen dishes for each course. We like to call this the 'flexible' set menu!",
+            "display_text": 0,
+            "image": "https://d3gko8938onrvn.cloudfront.net/setmenus/images/7qorE5vLXdIuTwR09QLyHSTyplnGq7KIXWRiz1Ce.jpg",
+            "thumbnail": "https://d3gko8938onrvn.cloudfront.net/setmenus/thumbnails/98128fd9b73a0d44667d337047eab5df.webp",
+            "is_vegan": 1,
+            "is_vegetarian": 1,
+            "name": "An Asian Experience",
+            "status": 1,
+            "groups": {
+                "dishes_count": 15,
+                "selectable_dishes_count": 8,
+                "groups": {
+                    "ungrouped": 0,
+                    "Appetizers": 1,
+                    "Mains": 1,
+                    "Dessert": 1
+                }
+            },
+            "price_per_person": 81,
+            "min_spend": 313,
+            "is_seated": 1,
+            "is_standing": 1,
+            "is_canape": 0,
+            "is_mixed_dietary": 1,
+            "is_meal_prep": 0,
+            "is_halal": 0,
+            "is_kosher": 0,
+            "price_includes": null,
+            "highlight": null,
+            "available": true,
+            "number_of_orders": 6
+        },
+        {
+            "created_at": "2022-07-28T19:58:42.000000Z",
+            "cuisines": [
+                {
+                    "id": 39,
+                    "name": "Mexican"
+                }
+            ],
+            "description": "Cooking up a fiesta for your friends and family. Sombreros required!",
+            "display_text": 1,
+            "image": "https://d3gko8938onrvn.cloudfront.net/setmenus/images/Ldbk04XlWTneUxP7FroC4pHtfqdfOXS8AHxRwH4z.jpg",
+            "thumbnail": "https://d3gko8938onrvn.cloudfront.net/setmenus/thumbnails/1db28f7aa50ceda47f3708958a5ae9e8.webp",
+            "is_vegan": 1,
+            "is_vegetarian": 1,
+            "name": "Taco Time",
+            "status": 1,
+            "groups": {
+                "dishes_count": 27,
+                "selectable_dishes_count": 10,
+                "groups": {
+                    "ungrouped": 0,
+                    "Starter": 1,
+                    "Main Dish": 1,
+                    "Side Dish": 1,
+                    "Dessert": 1
+                }
+            },
+            "price_per_person": 40,
+            "min_spend": 188,
+            "is_seated": 0,
+            "is_standing": 1,
+            "is_canape": 0,
+            "is_mixed_dietary": 1,
+            "is_meal_prep": 0,
+            "is_halal": 1,
+            "is_kosher": 0,
+            "price_includes": null,
+            "highlight": null,
+            "available": true,
+            "number_of_orders": 5
+        },
+        {
+            "created_at": "2022-07-19T14:22:32.000000Z",
+            "cuisines": [
+                {
+                    "id": 36,
+                    "name": "Canapé Party"
+                }
+            ],
+            "description": "Get your party off to a stylish start with these tempting canapés. \r\n\r\nWith cheese and meat grazing platters",
+            "display_text": 1,
+            "image": "https://d3gko8938onrvn.cloudfront.net/setmenus/images/e91udkQ5Lef6L1ntIu8WzYi6jQYxlxMmKgdlkym3.jpg",
+            "thumbnail": "https://d3gko8938onrvn.cloudfront.net/setmenus/thumbnails/dc22926d9768bc1471a55eea7561d553.webp",
+            "is_vegan": 0,
+            "is_vegetarian": 0,
+            "name": "Canapés Menu for you",
+            "status": 1,
+            "groups": {
+                "dishes_count": 23,
+                "selectable_dishes_count": 5,
+                "groups": {
+                    "ungrouped": 0,
+                    "Canape": 1,
+                    "Dessert": 1
+                }
+            },
+            "price_per_person": 32,
+            "min_spend": 188,
+            "is_seated": 1,
+            "is_standing": 1,
+            "is_canape": 0,
+            "is_mixed_dietary": 1,
+            "is_meal_prep": 0,
+            "is_halal": 0,
+            "is_kosher": 0,
+            "price_includes": null,
+            "highlight": null,
+            "available": true,
+            "number_of_orders": 5
+        },
+        {
+            "created_at": "2022-05-19T12:12:42.000000Z",
+            "cuisines": [
+                {
+                    "id": 25,
+                    "name": "BBQ"
+                }
+            ],
+            "description": "Extensive choices for a summer BBQ party",
+            "display_text": 1,
+            "image": "https://d3gko8938onrvn.cloudfront.net/setmenus/images/DC2GLAGZqfvlHyxi8259ljzjNHIE5UJLqmrIkKob.jpg",
+            "thumbnail": "https://d3gko8938onrvn.cloudfront.net/setmenus/thumbnails/3d4d13bd9a704d2fb53fdf0185e13aef.webp",
+            "is_vegan": 1,
+            "is_vegetarian": 1,
+            "name": "Flamin' BBQ",
+            "status": 1,
+            "groups": {
+                "dishes_count": 17,
+                "selectable_dishes_count": 5,
+                "groups": {
+                    "ungrouped": 0,
+                    "Main Dish": 1,
+                    "Side Dish": 1
+                }
+            },
+            "price_per_person": 25,
+            "min_spend": 375,
+            "is_seated": 0,
+            "is_standing": 1,
+            "is_canape": 0,
+            "is_mixed_dietary": 1,
+            "is_meal_prep": 0,
+            "is_halal": 0,
+            "is_kosher": 0,
+            "price_includes": null,
+            "highlight": null,
+            "available": true,
+            "number_of_orders": 5
+        },
+        {
+            "created_at": "2022-05-12T10:20:50.000000Z",
+            "cuisines": [
+                {
+                    "id": 29,
+                    "name": "Pan Asian"
+                }
+            ],
+            "description": "Mix of European and Pan Asian Food, ideally to share in family or with friends",
+            "display_text": 1,
+            "image": "https://d3gko8938onrvn.cloudfront.net/setmenus/images/ywwiZ5GnZKQPfZxlpEQKACU326dlZSJ8COEKbVHY.jpg",
+            "thumbnail": "https://d3gko8938onrvn.cloudfront.net/setmenus/thumbnails/4c2a217bd9b44a6539461dc0b0e08b85.webp",
+            "is_vegan": 0,
+            "is_vegetarian": 1,
+            "name": "Pan Asian Sharing Party",
+            "status": 1,
+            "groups": {
+                "dishes_count": 10,
+                "selectable_dishes_count": 4,
+                "groups": {
+                    "ungrouped": 0,
+                    "Starter": 1,
+                    "Main Dish": 1,
+                    "Side Dish": 1,
+                    "Dessert": 1
+                }
+            },
+            "price_per_person": 43,
+            "min_spend": 188,
+            "is_seated": 0,
+            "is_standing": 1,
+            "is_canape": 0,
+            "is_mixed_dietary": 1,
+            "is_meal_prep": 0,
+            "is_halal": 1,
+            "is_kosher": 0,
+            "price_includes": null,
+            "highlight": null,
+            "available": true,
+            "number_of_orders": 5
+        },
+        {
+            "created_at": "2022-05-11T20:36:15.000000Z",
+            "cuisines": [
+                {
+                    "id": 88,
+                    "name": "Group Experiences"
+                }
+            ],
+            "description": "Summer breeze and picnic are the best combinations for a gala time",
+            "display_text": 1,
+            "image": "https://d3gko8938onrvn.cloudfront.net/setmenus/images/TRHu0KrCgW9IsRXIGVzJ4FUTW4cuYw4wrjwloM0Y.png",
+            "thumbnail": "https://d3gko8938onrvn.cloudfront.net/setmenus/thumbnails/ae472680536cefe6157b79a0b076f3eb.webp",
+            "is_vegan": 1,
+            "is_vegetarian": 1,
+            "name": "Summer Picnic Basket Delivery",
+            "status": 1,
+            "groups": {
+                "dishes_count": 28,
+                "selectable_dishes_count": 5,
+                "groups": {
+                    "ungrouped": 0,
+                    "Main Dish": 1,
+                    "Dessert": 1
+                }
+            },
+            "price_per_person": 25,
+            "min_spend": 438,
+            "is_seated": 1,
+            "is_standing": 0,
+            "is_canape": 0,
+            "is_mixed_dietary": 0,
+            "is_meal_prep": 0,
+            "is_halal": 0,
+            "is_kosher": 0,
+            "price_includes": null,
+            "highlight": null,
+            "available": true,
+            "number_of_orders": 5
+        },
+        {
+            "created_at": "2022-05-05T21:51:16.000000Z",
+            "cuisines": [
+                {
+                    "id": 46,
+                    "name": "Modern European"
+                }
+            ],
+            "description": "Authentic Greek Dishes",
+            "display_text": 0,
+            "image": "https://d3gko8938onrvn.cloudfront.net/setmenus/images/KQzaFPk3WFHVmdzueWVczwDThyZHWczLbDmhisbd.jpg",
+            "thumbnail": "https://d3gko8938onrvn.cloudfront.net/setmenus/thumbnails/340a4b90963b2fd61bfc07bd80a67137.webp",
+            "is_vegan": 1,
+            "is_vegetarian": 1,
+            "name": "Greece Time!",
+            "status": 1,
+            "groups": {
+                "dishes_count": 21,
+                "selectable_dishes_count": 3,
+                "groups": {
+                    "ungrouped": 0,
+                    "Starter": 1,
+                    "Main Dish": 1,
+                    "Side Dish": 1,
+                    "Dessert": 1
+                }
+            },
+            "price_per_person": 35,
+            "min_spend": 188,
+            "is_seated": 1,
+            "is_standing": 0,
+            "is_canape": 0,
+            "is_mixed_dietary": 1,
+            "is_meal_prep": 0,
+            "is_halal": 1,
+            "is_kosher": 1,
+            "price_includes": null,
+            "highlight": null,
+            "available": true,
+            "number_of_orders": 5
+        },
+        {
+            "created_at": "2022-04-04T14:44:42.000000Z",
+            "cuisines": [
+                {
+                    "id": 36,
+                    "name": "Canapé Party"
+                }
+            ],
+            "description": "Menu suitable for large catering events",
+            "display_text": 1,
+            "image": "https://d3gko8938onrvn.cloudfront.net/setmenus/thumbnails/D8OkzT1J1VElIDopRbyQatqrVekKi8FkYGuuN37i.png",
+            "thumbnail": "https://d3gko8938onrvn.cloudfront.net/setmenus/thumbnails/00165bfd3300bf525d4fde3bc4950507.webp",
+            "is_vegan": 1,
+            "is_vegetarian": 1,
+            "name": "Large Event Canape Menu",
+            "status": 1,
+            "groups": {
+                "dishes_count": 16,
+                "selectable_dishes_count": 9,
+                "groups": {
+                    "ungrouped": 0,
+                    "Starter": 1,
+                    "Main Dish": 1,
+                    "Dessert": 1
+                }
+            },
+            "price_per_person": 28,
+            "min_spend": 1250,
+            "is_seated": 0,
+            "is_standing": 1,
+            "is_canape": 1,
+            "is_mixed_dietary": 1,
+            "is_meal_prep": 0,
+            "is_halal": 0,
+            "is_kosher": 0,
+            "price_includes": null,
+            "highlight": null,
+            "available": true,
+            "number_of_orders": 5
+        }
+    ]
+}
