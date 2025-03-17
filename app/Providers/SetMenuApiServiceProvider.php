@@ -2,10 +2,12 @@
 
 namespace App\Providers;
 
-use App\Http\Service\ApiDataHandlerService;
-use App\Http\Service\ApiDataHandlerServiceImpl;
-use App\Http\Service\SetMenuApiService;
-use App\Http\Service\SetMenuApiServiceImpl;
+use App\Repository\CuisineRepositoryImpl;
+use App\Repository\SetMenuRepositoryImpl;
+use App\Service\ApiDataHandlerService;
+use App\Service\ApiDataHandlerServiceImpl;
+use App\Service\SetMenuApiService;
+use App\Service\SetMenuApiServiceImpl;
 use Illuminate\Support\ServiceProvider;
 
 class SetMenuApiServiceProvider extends ServiceProvider
@@ -19,7 +21,10 @@ class SetMenuApiServiceProvider extends ServiceProvider
             return new SetMenuApiServiceImpl(config('app.set_menu_api'));
         });
         $this->app->singleton(ApiDataHandlerService::class, function ($app) {
-            return new ApiDataHandlerServiceImpl(new SetMenuApiServiceImpl(config('app.set_menu_api')));
+            return new ApiDataHandlerServiceImpl(
+                new SetMenuApiServiceImpl(config('app.set_menu_api')),
+                new CuisineRepositoryImpl(),
+                new SetMenuRepositoryImpl());
         });
     }
 }

@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Http\Requests\SetMenusIndexRequest;
 use App\Http\Resources\SetMenusIndexResource;
-use App\Http\Service\SetMenuService;
+use App\Service\SetMenuService;
 
 class SetMenuController extends Controller
 {

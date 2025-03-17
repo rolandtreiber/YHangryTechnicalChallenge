@@ -4,9 +4,11 @@ namespace Tests\Unit;
 
 use App\Exceptions\CuisineCannotBeParsedException;
 use App\Exceptions\SetMenuCannotBeParsedException;
-use App\Http\Service\ApiDataHandlerService;
-use App\Http\Service\ApiDataHandlerServiceImpl;
 use App\Models\SetMenu;
+use App\Repository\CuisineRepositoryImpl;
+use App\Repository\SetMenuRepositoryImpl;
+use App\Service\ApiDataHandlerService;
+use App\Service\ApiDataHandlerServiceImpl;
 use Illuminate\Contracts\Container\BindingResolutionException;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use PHPUnit\Framework\Attributes\Group;
@@ -28,7 +30,11 @@ class SetMenuApiServiceTest extends TestCase
     public function setUp(): void
     {
         parent::setUp();
-        $this->apiDataHandler = new ApiDataHandlerServiceImpl(app()->make(ValidDataMockSetMenuApiService::class));
+        $this->apiDataHandler = new ApiDataHandlerServiceImpl(
+            app()->make(ValidDataMockSetMenuApiService::class),
+            new CuisineRepositoryImpl(),
+            new SetMenuRepositoryImpl()
+        );
     }
 
     public function test_retrieves_all_data(): void
@@ -42,6 +48,10 @@ class SetMenuApiServiceTest extends TestCase
         $this->assertCount(80, $data);
     }
 
+    /**
+     * @throws CuisineCannotBeParsedException
+     * @throws SetMenuCannotBeParsedException
+     */
     public function test_extracts_single_page_data(): void
     {
         $data = $this->apiDataHandler->extractData($this->apiDataHandler->retrieveData(1)['data']);
@@ -51,17 +61,31 @@ class SetMenuApiServiceTest extends TestCase
         $this->assertEquals("italian", $data[0]->getCuisines()->first()->get()['slug']);
     }
 
+    /**
+     * @throws SetMenuCannotBeParsedException
+     * @throws BindingResolutionException
+     */
     public function test_missing_cuisine_name_throws_exception(): void
     {
         $this->expectException(CuisineCannotBeParsedException::class);
-        $this->apiDataHandler = new ApiDataHandlerServiceImpl(app()->make(InvalidDataMockSetMenuApiServiceMissingCuisineName::class));
+        $this->apiDataHandler = new ApiDataHandlerServiceImpl(app()->make(InvalidDataMockSetMenuApiServiceMissingCuisineName::class),
+            new CuisineRepositoryImpl(),
+            new SetMenuRepositoryImpl()
+        );
         $this->apiDataHandler->extractData($this->apiDataHandler->retrieveData(1)['data']);
     }
 
+    /**
+     * @throws CuisineCannotBeParsedException
+     * @throws BindingResolutionException
+     */
     public function test_missing_menu_values_throws_exception(): void
     {
         $this->expectException(SetMenuCannotBeParsedException::class);
-        $this->apiDataHandler = new ApiDataHandlerServiceImpl(app()->make(InvalidDataMockSetMenuApiServiceMissingSetMenuValues::class));
+        $this->apiDataHandler = new ApiDataHandlerServiceImpl(app()->make(InvalidDataMockSetMenuApiServiceMissingSetMenuValues::class),
+            new CuisineRepositoryImpl(),
+            new SetMenuRepositoryImpl()
+        );
         $this->apiDataHandler->extractData($this->apiDataHandler->retrieveData(1)['data']);
     }
 
@@ -80,7 +104,7 @@ class SetMenuApiServiceTest extends TestCase
 
     /**
      * @throws SetMenuCannotBeParsedException
-     * @throws CuisineCannotBeParsedException|BindingResolutionException
+     * @throws CuisineCannotBeParsedException
      */
     public function test_entire_dataset_is_persisted(): void
     {
@@ -97,6 +121,10 @@ class SetMenuApiServiceTest extends TestCase
         $this->assertDatabaseCount('set_menus', 80);
     }
 
+    /**
+     * @throws SetMenuCannotBeParsedException
+     * @throws CuisineCannotBeParsedException
+     */
     public function test_relationships_were_persisted(): void
     {
         $data = $this->apiDataHandler->extractData($this->apiDataHandler->retrieveData(1)['data']);

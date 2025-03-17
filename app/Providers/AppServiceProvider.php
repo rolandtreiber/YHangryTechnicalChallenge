@@ -2,10 +2,10 @@
 
 namespace App\Providers;
 
-use App\Http\Service\CuisineService;
-use App\Http\Service\CuisineServiceImpl;
-use App\Http\Service\SetMenuService;
-use App\Http\Service\SetMenuServiceImpl;
+use App\Service\CuisineService;
+use App\Service\CuisineServiceImpl;
+use App\Service\SetMenuService;
+use App\Service\SetMenuServiceImpl;
 use Illuminate\Support\ServiceProvider;
 
 class AppServiceProvider extends ServiceProvider

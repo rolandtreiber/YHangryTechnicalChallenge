@@ -2,7 +2,7 @@
 
 namespace Tests\Mock\Service;
 
-use App\Http\Service\SetMenuApiService;
+use App\Service\SetMenuApiService;
 
 abstract class BaseMockSetMenuApiService implements SetMenuApiService
 {

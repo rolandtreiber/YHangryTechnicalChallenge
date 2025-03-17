@@ -51,9 +51,22 @@ $ docker compose run --remove-orphans -it yh-php php artisan app:data-harvester
 > The logic is the following:
 > 1. The data is fetched going through the pages
 > 2. The full set of raw data is processed by parsing and validating, then turned into a collection of DTO classes
-> 3. The full parsed dataset is saved into the database as a group query. This way it is much faster and lighter on the database
+> 3. The full parsed dataset is **batch inserted** into the database as a group query. This way it is much faster and lighter on the database
 
 At the end of the process you'll see all data correctly committed in the local database.
+
+## Data Structure
+I created the following 3 tables
+- set_menus
+- cuisines
+- cuisine_set_menu
+
+The first 2 respectively mirror the dataset returned by the external API.
+
+> The cuisine appears an array in the dataset for each set menu indicating that a set menu may belong to multiple cuisines.
+> To address this, I used the eloquent support for many-to-many relations between the Cuisine and SetMenu models. 
+
+I also added a database index for the slug field on the cuisines table as it is used for filtering. 
 
 ## Testing
 Running the tests is also going through Docker to maintain the platform independent design.

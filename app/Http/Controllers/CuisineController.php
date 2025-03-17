@@ -2,8 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use App\Http\Service\CuisineService;
-use Illuminate\Http\Request;
+use App\Service\CuisineService;
 
 class CuisineController extends Controller
 {

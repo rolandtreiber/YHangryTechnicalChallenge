@@ -1,11 +1,13 @@
 <?php
 
-namespace App\Http\Service;
+namespace App\Service;
 
 use App\DTO\CuisineDTO;
 use App\DTO\SetMenuDTO;
 use App\Exceptions\CuisineCannotBeParsedException;
 use App\Exceptions\SetMenuCannotBeParsedException;
+use App\Repository\CuisineRepository;
+use App\Repository\SetMenuRepository;
 use Carbon\Carbon;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\DB;
@@ -15,6 +17,8 @@ class ApiDataHandlerServiceImpl implements ApiDataHandlerService
 {
     private static int $activePage = 1;
     private SetMenuApiService $setMenuApiService;
+    private CuisineRepository $cuisineRepository;
+    private SetMenuRepository $setMenuRepository;
 
     private const REQUIRED_CUISINE_KEYS = ["id", "name"];
     private const REQUIRED_SET_MENU_KEYS = ["created_at",
@@ -22,9 +26,15 @@ class ApiDataHandlerServiceImpl implements ApiDataHandlerService
         "status", "price_per_person", "min_spend", "is_seated", "is_standing", "is_canape", "is_mixed_dietary",
         "is_meal_prep", "is_halal", "is_kosher", "available", "number_of_orders"];
 
-    public function __construct(SetMenuApiService $setMenuApiService)
+    public function __construct(
+        SetMenuApiService $setMenuApiService,
+        CuisineRepository $cuisineRepository,
+        SetMenuRepository $setMenuRepository
+    )
     {
         $this->setMenuApiService = $setMenuApiService;
+        $this->setMenuRepository = $setMenuRepository;
+        $this->cuisineRepository = $cuisineRepository;
     }
 
     /**
@@ -107,43 +117,9 @@ class ApiDataHandlerServiceImpl implements ApiDataHandlerService
 
     public function persistData(Collection $setMenus): void
     {
-        DB::beginTransaction();
-        $cuisinesToPersist = [];
-        $setMenusToPersist = [];
-        foreach ($setMenus as $setMenu) {
-            $cuisinesToPersist = array_merge($cuisinesToPersist, $setMenu->getCuisines()->map(function ($cuisine) {
-                return $cuisine->get();
-            })->toArray());
-            $setMenusToPersist[] = $setMenu->get();
-        }
-        try {
-            DB::table('set_menus')->insertOrIgnore($setMenusToPersist);
-            DB::table('cuisines')->insertOrIgnore($cuisinesToPersist);
-            DB::commit();
-        } catch (Throwable $e) {
-            DB::rollBack();
-        }
-
-        $savedSetMenus = DB::table('set_menus')->select("id", "name")->get();
-        $cuisineSetMenus = [];
-
-        DB::beginTransaction();
-        try {
-            foreach ($setMenus as $setMenu) {
-                foreach ($setMenu->getCuisines() as $cuisine) {
-                    $setMenuId = $savedSetMenus->where("name", $setMenu->get()['name'])->firstOrFail()->id;
-                    $cuisineSetMenus[] = [
-                        "cuisine_id" => $cuisine->getId(),
-                        "set_menu_id" => $setMenuId,
-                    ];
-                }
-            }
-            DB::table('cuisine_set_menu')->insertOrIgnore($cuisineSetMenus);
-            DB::commit();
-        } catch (Throwable $e) {
-            DB::rollBack();
-        }
-
+        $this->cuisineRepository->batchImport($setMenus);
+        $this->setMenuRepository->batchImport($setMenus);
+        $this->setMenuRepository->importCuisineRelations($setMenus);
     }
 
     public function setActivePage($page): void
