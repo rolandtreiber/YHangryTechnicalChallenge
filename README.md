@@ -3,6 +3,8 @@
 ## Introduction
 Thank you for the challenge. I enjoyed working on it.
 
+![Screen recording](./screenshots/screen-recording.gif)
+
 ## Project Setup
 
 The project infrastructure is designed not to assume any pre-installed and pre-configured environment or tools apart from docker.
@@ -111,3 +113,24 @@ The endpoint performs the following:
 > - Returns a paginated list of active set menus with all required fields
 > - Returns a list of cuisines for each
 > - If no slug is specified, it returns all set menus
+
+## Frontend
+The frontend application is using **Inertiajs** with **React**, **TypeScript** as well as **Redux** for state management. 
+
+### Install the npm packages
+```bash
+$ npm install
+```
+
+### Run the application
+```bash
+$ npm run dev
+```
+
+![Npm run dev](./screenshots/npm-run-dev.png)
+
+Once the application is running, navigate to ```http://localhost``` to test the solution.
+
+---
+
+Roland Treiber
