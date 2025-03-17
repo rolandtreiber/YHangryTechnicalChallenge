@@ -110,6 +110,10 @@ you should see no errors being reported by PhpStan
 The following api endpoints are available
 
 ### Get Cuisines
+This api endpoint is used to fetch all cuisines for the filters. It is called once when the page loads for efficiency.
+The payload contains the set menu count, name and slug as well as the total number of associated set menus sold in each cuisine.
+Considering that this is a fairly heavy query, it is called only when necessary upon populating the filters.
+
 ```
     [GET] [APPLICATION_URL]/api/cuisines
 ```
@@ -119,6 +123,9 @@ The endpoint takes no parameters and has the following capabilities:
 > - It includes id, name and slug for all cuisines to be used by the frontend
 
 ### Get Set Menus
+This api endpoint takes an optional slug to return set menus that either belong to a cuisine or all if no cuisine is specified.
+I included the number of guests, so the prices are calculated server-side not allowing access to the price calculation by peeking into the JavaScript.
+
 ```
     [GET] [APPLICATION_URL]/api/set-menus/[SLUG (optional)]?page=[PAGE NUMBER]&number_of_guests=[NUMBER OF GUESTS]
 ```
